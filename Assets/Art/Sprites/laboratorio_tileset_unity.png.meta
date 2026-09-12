@@ -1,0 +1,2758 @@
+fileFormatVersion: 2
+guid: 9c6170424d3bc723d8e4faad94645c67
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5257762332996307061
+    second: laboratorio_tileset_unity_0
+  - first:
+      213: 3355341510636354604
+    second: laboratorio_tileset_unity_1
+  - first:
+      213: -3692754915025628096
+    second: laboratorio_tileset_unity_2
+  - first:
+      213: 6596190516961417056
+    second: laboratorio_tileset_unity_3
+  - first:
+      213: -6264555673120844773
+    second: laboratorio_tileset_unity_4
+  - first:
+      213: 8268347476984699462
+    second: laboratorio_tileset_unity_5
+  - first:
+      213: -4571226087698802333
+    second: laboratorio_tileset_unity_6
+  - first:
+      213: 1114014394251762616
+    second: laboratorio_tileset_unity_7
+  - first:
+      213: -4440406888547039551
+    second: laboratorio_tileset_unity_8
+  - first:
+      213: 3956293983141219704
+    second: laboratorio_tileset_unity_9
+  - first:
+      213: -7082665554017440415
+    second: laboratorio_tileset_unity_10
+  - first:
+      213: 1851805987103971025
+    second: laboratorio_tileset_unity_11
+  - first:
+      213: 1476640258862684406
+    second: laboratorio_tileset_unity_12
+  - first:
+      213: 8165917571842347566
+    second: laboratorio_tileset_unity_13
+  - first:
+      213: 1921385654863984900
+    second: laboratorio_tileset_unity_14
+  - first:
+      213: -4558059130676497656
+    second: laboratorio_tileset_unity_15
+  - first:
+      213: -5742050311859077496
+    second: laboratorio_tileset_unity_16
+  - first:
+      213: 5744515932276393603
+    second: laboratorio_tileset_unity_17
+  - first:
+      213: 1949000240091692301
+    second: laboratorio_tileset_unity_18
+  - first:
+      213: 8806773734471823220
+    second: laboratorio_tileset_unity_19
+  - first:
+      213: -779439225225979700
+    second: laboratorio_tileset_unity_20
+  - first:
+      213: -8053524578735657587
+    second: laboratorio_tileset_unity_21
+  - first:
+      213: -6233313232887947147
+    second: laboratorio_tileset_unity_22
+  - first:
+      213: 1366250718218764774
+    second: laboratorio_tileset_unity_23
+  - first:
+      213: 3290265542212505277
+    second: laboratorio_tileset_unity_24
+  - first:
+      213: -6965483035091461174
+    second: laboratorio_tileset_unity_25
+  - first:
+      213: -83539319977786410
+    second: laboratorio_tileset_unity_26
+  - first:
+      213: 6319062278763385298
+    second: laboratorio_tileset_unity_27
+  - first:
+      213: -330640557090227104
+    second: laboratorio_tileset_unity_28
+  - first:
+      213: -461506993481017292
+    second: laboratorio_tileset_unity_29
+  - first:
+      213: -8561927641825577195
+    second: laboratorio_tileset_unity_30
+  - first:
+      213: -2834091360428236160
+    second: laboratorio_tileset_unity_31
+  - first:
+      213: -8367120956790442224
+    second: laboratorio_tileset_unity_32
+  - first:
+      213: 9020222009734809090
+    second: laboratorio_tileset_unity_33
+  - first:
+      213: -1395202405509633832
+    second: laboratorio_tileset_unity_34
+  - first:
+      213: -6517800922294467204
+    second: laboratorio_tileset_unity_35
+  - first:
+      213: -6174035918354589090
+    second: laboratorio_tileset_unity_36
+  - first:
+      213: -9125140209332597798
+    second: laboratorio_tileset_unity_37
+  - first:
+      213: 5873920778609911641
+    second: laboratorio_tileset_unity_38
+  - first:
+      213: 3981235342526352384
+    second: laboratorio_tileset_unity_39
+  - first:
+      213: 6323499837250120478
+    second: laboratorio_tileset_unity_40
+  - first:
+      213: 3993673974590065822
+    second: laboratorio_tileset_unity_41
+  - first:
+      213: -5249230544353142516
+    second: laboratorio_tileset_unity_42
+  - first:
+      213: -2293742521250007152
+    second: laboratorio_tileset_unity_43
+  - first:
+      213: -6841400449900271056
+    second: laboratorio_tileset_unity_44
+  - first:
+      213: -6437686085660069378
+    second: laboratorio_tileset_unity_45
+  - first:
+      213: 5672541550851955324
+    second: laboratorio_tileset_unity_46
+  - first:
+      213: 922852969152316652
+    second: laboratorio_tileset_unity_47
+  - first:
+      213: -2349911323278128168
+    second: laboratorio_tileset_unity_48
+  - first:
+      213: -3866023469780934596
+    second: laboratorio_tileset_unity_49
+  - first:
+      213: 1466627841993381199
+    second: laboratorio_tileset_unity_50
+  - first:
+      213: 7962532373852131561
+    second: laboratorio_tileset_unity_51
+  - first:
+      213: 7698367938566554570
+    second: laboratorio_tileset_unity_52
+  - first:
+      213: 1914621004727365311
+    second: laboratorio_tileset_unity_53
+  - first:
+      213: 1929348428633662897
+    second: laboratorio_tileset_unity_54
+  - first:
+      213: 4657019071612160852
+    second: laboratorio_tileset_unity_55
+  - first:
+      213: -8068219850579406547
+    second: laboratorio_tileset_unity_56
+  - first:
+      213: -5979905216614234331
+    second: laboratorio_tileset_unity_57
+  - first:
+      213: 4711958372194932028
+    second: laboratorio_tileset_unity_58
+  - first:
+      213: 6199693537623295924
+    second: laboratorio_tileset_unity_59
+  - first:
+      213: -2773652228275980688
+    second: laboratorio_tileset_unity_60
+  - first:
+      213: 5817686065141325977
+    second: laboratorio_tileset_unity_61
+  - first:
+      213: 3501075062359343154
+    second: laboratorio_tileset_unity_62
+  - first:
+      213: -2728663106710974470
+    second: laboratorio_tileset_unity_63
+  - first:
+      213: 6551018430088481418
+    second: laboratorio_tileset_unity_64
+  - first:
+      213: 7640550366708911240
+    second: laboratorio_tileset_unity_65
+  - first:
+      213: 5092730410718742358
+    second: laboratorio_tileset_unity_66
+  - first:
+      213: 6625250215453519069
+    second: laboratorio_tileset_unity_67
+  - first:
+      213: -4094263205200038446
+    second: laboratorio_tileset_unity_68
+  - first:
+      213: -3242509049233231399
+    second: laboratorio_tileset_unity_69
+  - first:
+      213: 3980003656459025461
+    second: laboratorio_tileset_unity_70
+  - first:
+      213: -696010835577434060
+    second: laboratorio_tileset_unity_71
+  - first:
+      213: -2517005483592542824
+    second: laboratorio_tileset_unity_72
+  - first:
+      213: 1012719718584164356
+    second: laboratorio_tileset_unity_73
+  - first:
+      213: -6965806267822121097
+    second: laboratorio_tileset_unity_74
+  - first:
+      213: -8935895393498579248
+    second: laboratorio_tileset_unity_75
+  - first:
+      213: 1774168936586206758
+    second: laboratorio_tileset_unity_76
+  - first:
+      213: -8786511845779672763
+    second: laboratorio_tileset_unity_77
+  - first:
+      213: -1727125601760009910
+    second: laboratorio_tileset_unity_78
+  - first:
+      213: -8520311149782023614
+    second: laboratorio_tileset_unity_79
+  - first:
+      213: 1620944798383195639
+    second: laboratorio_tileset_unity_80
+  - first:
+      213: 1931427266082520577
+    second: laboratorio_tileset_unity_81
+  - first:
+      213: -4156198747666445040
+    second: laboratorio_tileset_unity_82
+  - first:
+      213: -4781402102890339044
+    second: laboratorio_tileset_unity_83
+  - first:
+      213: -4468932403486545689
+    second: laboratorio_tileset_unity_84
+  - first:
+      213: 8686783246743233144
+    second: laboratorio_tileset_unity_85
+  - first:
+      213: 8987079224141913278
+    second: laboratorio_tileset_unity_86
+  - first:
+      213: -2798906076901183153
+    second: laboratorio_tileset_unity_87
+  - first:
+      213: 3957950038133238157
+    second: laboratorio_tileset_unity_88
+  - first:
+      213: -557131433056421750
+    second: laboratorio_tileset_unity_89
+  - first:
+      213: -2408552619542474264
+    second: laboratorio_tileset_unity_90
+  - first:
+      213: -6041655691985019525
+    second: laboratorio_tileset_unity_91
+  - first:
+      213: -3364866638669168352
+    second: laboratorio_tileset_unity_92
+  - first:
+      213: -6584468965860157212
+    second: laboratorio_tileset_unity_93
+  - first:
+      213: -8686960494179033622
+    second: laboratorio_tileset_unity_94
+  - first:
+      213: 135384605642026420
+    second: laboratorio_tileset_unity_95
+  - first:
+      213: -7082351881500194849
+    second: laboratorio_tileset_unity_96
+  - first:
+      213: -6555208869821204000
+    second: laboratorio_tileset_unity_97
+  - first:
+      213: 7229679231329346547
+    second: laboratorio_tileset_unity_98
+  - first:
+      213: 1948372495954179411
+    second: laboratorio_tileset_unity_99
+  - first:
+      213: 7367631232542535592
+    second: laboratorio_tileset_unity_100
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1086
+        width: 87
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5788cab2cf257f840800000000000000
+      internalID: 5257762332996307061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_1
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1083
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c3a999351909e20800000000000000
+      internalID: 3355341510636354604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_2
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1083
+        width: 89
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044d15748f2b0ccc0800000000000000
+      internalID: -3692754915025628096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_3
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1083
+        width: 92
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067194ab3506a8b50800000000000000
+      internalID: 6596190516961417056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_4
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1083
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1459fb6ec3df09a0800000000000000
+      internalID: -6264555673120844773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_5
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1083
+        width: 89
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a9b2509321fb270800000000000000
+      internalID: 8268347476984699462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_6
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1083
+        width: 89
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369d6b6b71ebf80c0800000000000000
+      internalID: -4571226087698802333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_7
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1083
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb5c047036c57f00800000000000000
+      internalID: 1114014394251762616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_8
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1082
+        width: 89
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6c4fd06718062c0800000000000000
+      internalID: -4440406888547039551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_9
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 1082
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87dc5249a6497e630800000000000000
+      internalID: 3956293983141219704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_10
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 1082
+        width: 89
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d25e5443155bd90800000000000000
+      internalID: -7082665554017440415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_11
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1083
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d61646ebbfe2b910800000000000000
+      internalID: 1851805987103971025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_12
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 993
+        width: 87
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f81d8aed741e7410800000000000000
+      internalID: 1476640258862684406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_13
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 997
+        width: 90
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2298c644ca235170800000000000000
+      internalID: 8165917571842347566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_14
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 997
+        width: 89
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409f2bab2122aaa10800000000000000
+      internalID: 1921385654863984900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_15
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1001
+        width: 77
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8033dcace558eb0c0800000000000000
+      internalID: -4558059130676497656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_16
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1002
+        width: 83
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ef73ff9a32050b0800000000000000
+      internalID: -5742050311859077496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_17
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1002
+        width: 88
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38608edfdce98bf40800000000000000
+      internalID: 5744515932276393603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_18
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1005
+        width: 86
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0df0d1646d3c0b10800000000000000
+      internalID: 1949000240091692301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_19
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 977
+        width: 81
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47fee6c1d02f73a70800000000000000
+      internalID: 8806773734471823220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_20
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 997
+        width: 81
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc856608720ee25f0800000000000000
+      internalID: -779439225225979700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_21
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 991
+        width: 89
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d6596a0122c3090800000000000000
+      internalID: -8053524578735657587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_22
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1005
+        width: 88
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570e8f3e3a2de79a0800000000000000
+      internalID: -6233313232887947147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_23
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 978
+        width: 85
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e14d8d1ac5e5f210800000000000000
+      internalID: 1366250718218764774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_24
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 846
+        width: 59
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbec84cf31f59ad20800000000000000
+      internalID: 3290265542212505277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_25
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 854
+        width: 60
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb1d549512a55f90800000000000000
+      internalID: -6965483035091461174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_26
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 851
+        width: 61
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d342fb5e6537def0800000000000000
+      internalID: -83539319977786410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_27
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 852
+        width: 65
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d11347a9a1d1b750800000000000000
+      internalID: 6319062278763385298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_28
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 866
+        width: 177
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06cbc464a24596bf0800000000000000
+      internalID: -330640557090227104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_29
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 863
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4389438a5d56899f0800000000000000
+      internalID: -461506993481017292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_30
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 860
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517736c3c2ced2980800000000000000
+      internalID: -8561927641825577195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_31
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 869
+        width: 72
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082eba06ce84ba8d0800000000000000
+      internalID: -2834091360428236160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_32
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 885
+        width: 91
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01777c912d302eb80800000000000000
+      internalID: -8367120956790442224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_33
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 864
+        width: 49
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206476d60244e2d70800000000000000
+      internalID: 9020222009734809090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_34
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 886
+        width: 65
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8e3d5edce33ace0800000000000000
+      internalID: -1395202405509633832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_35
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 754
+        width: 178
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c75cced089e1c85a0800000000000000
+      internalID: -6517800922294467204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_36
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 731
+        width: 43
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ad8ff2b0b615aa0800000000000000
+      internalID: -6174035918354589090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_37
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 731
+        width: 59
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adbc811a35dfc5180800000000000000
+      internalID: -9125140209332597798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_38
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 736
+        width: 80
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95764d7a3db548150800000000000000
+      internalID: 5873920778609911641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_39
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 736
+        width: 71
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c83865370304730800000000000000
+      internalID: 3981235342526352384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_40
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 736
+        width: 74
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ba880499591c750800000000000000
+      internalID: 6323499837250120478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_41
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 734
+        width: 74
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9cc92c02516c6730800000000000000
+      internalID: 3993673974590065822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_42
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 731
+        width: 92
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0953bba1acf627b0800000000000000
+      internalID: -5249230544353142516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_43
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 745
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0973fa6645dfa20e0800000000000000
+      internalID: -2293742521250007152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_44
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 751
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a2f71c9867e01a0800000000000000
+      internalID: -6841400449900271056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_45
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 754
+        width: 63
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1b1c80d9eb8a6a0800000000000000
+      internalID: -6437686085660069378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_46
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 596
+        width: 106
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a9c207c7ae8be40800000000000000
+      internalID: 5672541550851955324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_47
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 591
+        width: 105
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce40d3ec2e1aecc00800000000000000
+      internalID: 922852969152316652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_48
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 599
+        width: 77
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dbc6521a10736fd0800000000000000
+      internalID: -2349911323278128168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_49
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 599
+        width: 69
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3062662320295ac0800000000000000
+      internalID: -3866023469780934596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_50
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 596
+        width: 73
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4596b370428a5410800000000000000
+      internalID: 1466627841993381199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_51
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 596
+        width: 43
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e01108b109908e60800000000000000
+      internalID: 7962532373852131561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_52
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 594
+        width: 116
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac304883ad816da60800000000000000
+      internalID: 7698367938566554570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_53
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 588
+        width: 83
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbea642e8a9129a10800000000000000
+      internalID: 1914621004727365311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_54
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 596
+        width: 74
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5eaa87c2c66ca10800000000000000
+      internalID: 1929348428633662897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_55
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 609
+        width: 97
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b89a3fb2e01a040800000000000000
+      internalID: 4657019071612160852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_56
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 604
+        width: 89
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d21957c0bcce70090800000000000000
+      internalID: -8068219850579406547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_57
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 452
+        width: 116
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527043d63eb130da0800000000000000
+      internalID: -5979905216614234331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_58
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 456
+        width: 92
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c355b1bac2d346140800000000000000
+      internalID: 4711958372194932028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_59
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 451
+        width: 102
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b74252dc6cb90650800000000000000
+      internalID: 6199693537623295924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_60
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 449
+        width: 96
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076b32b6ef10289d0800000000000000
+      internalID: -2773652228275980688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_61
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 456
+        width: 102
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9902d7f17a29cb050800000000000000
+      internalID: 5817686065141325977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_62
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 451
+        width: 95
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23048ef3831569030800000000000000
+      internalID: 3501075062359343154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_63
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 459
+        width: 135
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff47cc8c57d12ad0800000000000000
+      internalID: -2728663106710974470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_64
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 451
+        width: 113
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a067aad84e9ea50800000000000000
+      internalID: 6551018430088481418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_65
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 453
+        width: 108
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c4a20c310b80a60800000000000000
+      internalID: 7640550366708911240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_66
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 454
+        width: 98
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65748bb73530da640800000000000000
+      internalID: 5092730410718742358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_67
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 328
+        width: 105
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddcef2808fd91fb50800000000000000
+      internalID: 6625250215453519069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_68
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 328
+        width: 83
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d57915ae414e27c0800000000000000
+      internalID: -4094263205200038446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_69
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 330
+        width: 81
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1b673033b4003d0800000000000000
+      internalID: -3242509049233231399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_70
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 324
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53cfef31d30db3730800000000000000
+      internalID: 3980003656459025461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_71
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 328
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430959925d54756f0800000000000000
+      internalID: -696010835577434060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_72
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 319
+        width: 86
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89591cc29dcc11dd0800000000000000
+      internalID: -2517005483592542824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_73
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 321
+        width: 68
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4002e3be737ed0e00800000000000000
+      internalID: 1012719718584164356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_74
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 328
+        width: 99
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77fd5481b1c745f90800000000000000
+      internalID: -6965806267822121097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_75
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 349
+        width: 71
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0deb778eb725df380800000000000000
+      internalID: -8935895393498579248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_76
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 335
+        width: 75
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ed0c47f3d1f9810800000000000000
+      internalID: 1774168936586206758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_77
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 345
+        width: 90
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5417a89770a001680800000000000000
+      internalID: -8786511845779672763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_78
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 210
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41ac987a640808e0800000000000000
+      internalID: -1727125601760009910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_79
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 210
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242417dd626c1c980800000000000000
+      internalID: -8520311149782023614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_80
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 210
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5c52cb4b0ce7610800000000000000
+      internalID: 1620944798383195639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_81
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 202
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e3a588ddecdca10800000000000000
+      internalID: 1931427266082520577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_82
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 201
+        width: 72
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d0b6d62473256c0800000000000000
+      internalID: -4156198747666445040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_83
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 204
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c156ae0de1c05adb0800000000000000
+      internalID: -4781402102890339044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_84
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 197
+        width: 78
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8a3fc08a92bf1c0800000000000000
+      internalID: -4468932403486545689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_85
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 199
+        width: 57
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 872e1fe9657ad8870800000000000000
+      internalID: 8686783246743233144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_86
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 196
+        width: 92
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc954350f488bc70800000000000000
+      internalID: 8987079224141913278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_87
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 203
+        width: 79
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f417f9690c94829d0800000000000000
+      internalID: -2798906076901183153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_88
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 197
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89ecade6967de630800000000000000
+      internalID: 3957950038133238157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_89
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 197
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88b777d9eba448f0800000000000000
+      internalID: -557131433056421750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_90
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 66
+        width: 81
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e19551572a139ed0800000000000000
+      internalID: -2408552619542474264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_91
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 66
+        width: 55
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d1400882ab72ca0800000000000000
+      internalID: -6041655691985019525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_92
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 65
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 021cf85be979d41d0800000000000000
+      internalID: -3364866638669168352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_93
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 80
+        width: 66
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8525f8c544f94a0800000000000000
+      internalID: -6584468965860157212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_94
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 90
+        width: 87
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed5b9eb477b17780800000000000000
+      internalID: -8686960494179033622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_95
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 78
+        width: 77
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd695fd49bf0e100800000000000000
+      internalID: 135384605642026420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_96
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 66
+        width: 90
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd78cd8dc7e66bd90800000000000000
+      internalID: -7082351881500194849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_97
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 70
+        width: 57
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e931dd83483705a0800000000000000
+      internalID: -6555208869821204000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_98
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 64
+        width: 96
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3a767d4faf45460800000000000000
+      internalID: 7229679231329346547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_99
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 75
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3557d7f46720a0b10800000000000000
+      internalID: 1948372495954179411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratorio_tileset_unity_100
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 74
+        width: 74
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af65c312951f3660800000000000000
+      internalID: 7367631232542535592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ee68149af9450760ca0e7b1a1b67919e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      laboratorio_tileset_unity_0: 5257762332996307061
+      laboratorio_tileset_unity_1: 3355341510636354604
+      laboratorio_tileset_unity_10: -7082665554017440415
+      laboratorio_tileset_unity_100: 7367631232542535592
+      laboratorio_tileset_unity_11: 1851805987103971025
+      laboratorio_tileset_unity_12: 1476640258862684406
+      laboratorio_tileset_unity_13: 8165917571842347566
+      laboratorio_tileset_unity_14: 1921385654863984900
+      laboratorio_tileset_unity_15: -4558059130676497656
+      laboratorio_tileset_unity_16: -5742050311859077496
+      laboratorio_tileset_unity_17: 5744515932276393603
+      laboratorio_tileset_unity_18: 1949000240091692301
+      laboratorio_tileset_unity_19: 8806773734471823220
+      laboratorio_tileset_unity_2: -3692754915025628096
+      laboratorio_tileset_unity_20: -779439225225979700
+      laboratorio_tileset_unity_21: -8053524578735657587
+      laboratorio_tileset_unity_22: -6233313232887947147
+      laboratorio_tileset_unity_23: 1366250718218764774
+      laboratorio_tileset_unity_24: 3290265542212505277
+      laboratorio_tileset_unity_25: -6965483035091461174
+      laboratorio_tileset_unity_26: -83539319977786410
+      laboratorio_tileset_unity_27: 6319062278763385298
+      laboratorio_tileset_unity_28: -330640557090227104
+      laboratorio_tileset_unity_29: -461506993481017292
+      laboratorio_tileset_unity_3: 6596190516961417056
+      laboratorio_tileset_unity_30: -8561927641825577195
+      laboratorio_tileset_unity_31: -2834091360428236160
+      laboratorio_tileset_unity_32: -8367120956790442224
+      laboratorio_tileset_unity_33: 9020222009734809090
+      laboratorio_tileset_unity_34: -1395202405509633832
+      laboratorio_tileset_unity_35: -6517800922294467204
+      laboratorio_tileset_unity_36: -6174035918354589090
+      laboratorio_tileset_unity_37: -9125140209332597798
+      laboratorio_tileset_unity_38: 5873920778609911641
+      laboratorio_tileset_unity_39: 3981235342526352384
+      laboratorio_tileset_unity_4: -6264555673120844773
+      laboratorio_tileset_unity_40: 6323499837250120478
+      laboratorio_tileset_unity_41: 3993673974590065822
+      laboratorio_tileset_unity_42: -5249230544353142516
+      laboratorio_tileset_unity_43: -2293742521250007152
+      laboratorio_tileset_unity_44: -6841400449900271056
+      laboratorio_tileset_unity_45: -6437686085660069378
+      laboratorio_tileset_unity_46: 5672541550851955324
+      laboratorio_tileset_unity_47: 922852969152316652
+      laboratorio_tileset_unity_48: -2349911323278128168
+      laboratorio_tileset_unity_49: -3866023469780934596
+      laboratorio_tileset_unity_5: 8268347476984699462
+      laboratorio_tileset_unity_50: 1466627841993381199
+      laboratorio_tileset_unity_51: 7962532373852131561
+      laboratorio_tileset_unity_52: 7698367938566554570
+      laboratorio_tileset_unity_53: 1914621004727365311
+      laboratorio_tileset_unity_54: 1929348428633662897
+      laboratorio_tileset_unity_55: 4657019071612160852
+      laboratorio_tileset_unity_56: -8068219850579406547
+      laboratorio_tileset_unity_57: -5979905216614234331
+      laboratorio_tileset_unity_58: 4711958372194932028
+      laboratorio_tileset_unity_59: 6199693537623295924
+      laboratorio_tileset_unity_6: -4571226087698802333
+      laboratorio_tileset_unity_60: -2773652228275980688
+      laboratorio_tileset_unity_61: 5817686065141325977
+      laboratorio_tileset_unity_62: 3501075062359343154
+      laboratorio_tileset_unity_63: -2728663106710974470
+      laboratorio_tileset_unity_64: 6551018430088481418
+      laboratorio_tileset_unity_65: 7640550366708911240
+      laboratorio_tileset_unity_66: 5092730410718742358
+      laboratorio_tileset_unity_67: 6625250215453519069
+      laboratorio_tileset_unity_68: -4094263205200038446
+      laboratorio_tileset_unity_69: -3242509049233231399
+      laboratorio_tileset_unity_7: 1114014394251762616
+      laboratorio_tileset_unity_70: 3980003656459025461
+      laboratorio_tileset_unity_71: -696010835577434060
+      laboratorio_tileset_unity_72: -2517005483592542824
+      laboratorio_tileset_unity_73: 1012719718584164356
+      laboratorio_tileset_unity_74: -6965806267822121097
+      laboratorio_tileset_unity_75: -8935895393498579248
+      laboratorio_tileset_unity_76: 1774168936586206758
+      laboratorio_tileset_unity_77: -8786511845779672763
+      laboratorio_tileset_unity_78: -1727125601760009910
+      laboratorio_tileset_unity_79: -8520311149782023614
+      laboratorio_tileset_unity_8: -4440406888547039551
+      laboratorio_tileset_unity_80: 1620944798383195639
+      laboratorio_tileset_unity_81: 1931427266082520577
+      laboratorio_tileset_unity_82: -4156198747666445040
+      laboratorio_tileset_unity_83: -4781402102890339044
+      laboratorio_tileset_unity_84: -4468932403486545689
+      laboratorio_tileset_unity_85: 8686783246743233144
+      laboratorio_tileset_unity_86: 8987079224141913278
+      laboratorio_tileset_unity_87: -2798906076901183153
+      laboratorio_tileset_unity_88: 3957950038133238157
+      laboratorio_tileset_unity_89: -557131433056421750
+      laboratorio_tileset_unity_9: 3956293983141219704
+      laboratorio_tileset_unity_90: -2408552619542474264
+      laboratorio_tileset_unity_91: -6041655691985019525
+      laboratorio_tileset_unity_92: -3364866638669168352
+      laboratorio_tileset_unity_93: -6584468965860157212
+      laboratorio_tileset_unity_94: -8686960494179033622
+      laboratorio_tileset_unity_95: 135384605642026420
+      laboratorio_tileset_unity_96: -7082351881500194849
+      laboratorio_tileset_unity_97: -6555208869821204000
+      laboratorio_tileset_unity_98: 7229679231329346547
+      laboratorio_tileset_unity_99: 1948372495954179411
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
