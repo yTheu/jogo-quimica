@@ -2586,8 +2586,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.013275623, y: 0.67731607}
-  m_Radius: 0.62374294
+  m_Offset: {x: -0.28453636, y: 0.35973096}
+  m_Radius: 0.545604
 --- !u!50 &325321869
 Rigidbody2D:
   serializedVersion: 5
@@ -10182,7 +10182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BotaoPorta
   pistaoPorta: {fileID: 1412308127}
-  tempoAberto: 2.4
+  tempoAberto: 3
   distanciaAfundar: 0.15
   velocidadeBotao: 5
 --- !u!1 &572265614
@@ -22738,7 +22738,7 @@ Transform:
   m_GameObject: {fileID: 2091755667}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.8, y: -0.28, z: 0}
+  m_LocalPosition: {x: -0.31, y: -0.36, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
