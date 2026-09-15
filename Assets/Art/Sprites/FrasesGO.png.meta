@@ -1,0 +1,366 @@
+fileFormatVersion: 2
+guid: c4ab7122df733e347953c693e656de8e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3852231906855719830
+    second: FrasesGO_0
+  - first:
+      213: -1435747152710318586
+    second: FrasesGO_1
+  - first:
+      213: 7089568377878829866
+    second: FrasesGO_2
+  - first:
+      213: 4279841849510607844
+    second: FrasesGO_3
+  - first:
+      213: 6070954535125849475
+    second: FrasesGO_4
+  - first:
+      213: -8263170139350417795
+    second: FrasesGO_5
+  - first:
+      213: -3866101716593456367
+    second: FrasesGO_6
+  - first:
+      213: 4494421421481326090
+    second: FrasesGO_7
+  - first:
+      213: -3925627164392703811
+    second: FrasesGO_8
+  - first:
+      213: -3596501677573958243
+    second: FrasesGO_9
+  - first:
+      213: -2740033109072032028
+    second: FrasesGO_10
+  - first:
+      213: 8363047504210166115
+    second: FrasesGO_11
+  - first:
+      213: 277836793210817662
+    second: FrasesGO_12
+  - first:
+      213: -1146848336615543492
+    second: FrasesGO_13
+  - first:
+      213: -8594519908282463800
+    second: FrasesGO_14
+  - first:
+      213: -1142396249388852620
+    second: FrasesGO_15
+  - first:
+      213: 1739850008988057496
+    second: FrasesGO_16
+  - first:
+      213: 3595944862408426376
+    second: FrasesGO_17
+  - first:
+      213: 5900725369107370763
+    second: FrasesGO_18
+  - first:
+      213: -5727797089153299715
+    second: FrasesGO_19
+  - first:
+      213: 4309694054565186637
+    second: FrasesGO_20
+  - first:
+      213: 9161752210286497586
+    second: FrasesGO_21
+  - first:
+      213: -5293917257639904610
+    second: FrasesGO_22
+  - first:
+      213: 6699666002221671963
+    second: FrasesGO_23
+  - first:
+      213: 5627569296841159793
+    second: FrasesGO_24
+  - first:
+      213: -3933028556155938520
+    second: FrasesGO_25
+  - first:
+      213: -4372881036209733244
+    second: FrasesGO_26
+  - first:
+      213: 8961400380954912218
+    second: FrasesGO_27
+  - first:
+      213: -120148354450801865
+    second: FrasesGO_28
+  - first:
+      213: -3452357536234879599
+    second: FrasesGO_29
+  - first:
+      213: -4950134397612426585
+    second: FrasesGO_30
+  - first:
+      213: -4484451390842516494
+    second: FrasesGO_31
+  - first:
+      213: 958984312522605744
+    second: FrasesGO_32
+  - first:
+      213: 5062733209974418369
+    second: FrasesGO_33
+  - first:
+      213: 3578967062010839402
+    second: FrasesGO_34
+  - first:
+      213: 5839462216533140784
+    second: FrasesGO_35
+  - first:
+      213: 3162737042498297268
+    second: FrasesGO_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Frase_Afogado
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 444
+        width: 892
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c607f9d7f1a8ac0800000000000000
+      internalID: -3852231906855719830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frases_Explodido
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 444
+        width: 1083
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6064c6f4293331ce0800000000000000
+      internalID: -1435747152710318586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frase_Laser
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 195
+        width: 970
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b5f46a0e4336260800000000000000
+      internalID: 7089568377878829866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frase_Espinho
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 195
+        width: 1029
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174bc179574291e40800000000000000
+      internalID: 5627569296841159793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 576c9fa0fe3700a4e9a35a2d73933f42
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Frase_Afogado: -3852231906855719830
+      Frase_Espinho: 5627569296841159793
+      Frase_Laser: 7089568377878829866
+      FrasesGO_10: -2740033109072032028
+      FrasesGO_11: 8363047504210166115
+      FrasesGO_12: 277836793210817662
+      FrasesGO_13: -1146848336615543492
+      FrasesGO_14: -8594519908282463800
+      FrasesGO_15: -1142396249388852620
+      FrasesGO_16: 1739850008988057496
+      FrasesGO_17: 3595944862408426376
+      FrasesGO_18: 5900725369107370763
+      FrasesGO_19: -5727797089153299715
+      FrasesGO_20: 4309694054565186637
+      FrasesGO_21: 9161752210286497586
+      FrasesGO_22: -5293917257639904610
+      FrasesGO_23: 6699666002221671963
+      FrasesGO_25: -3933028556155938520
+      FrasesGO_26: -4372881036209733244
+      FrasesGO_27: 8961400380954912218
+      FrasesGO_28: -120148354450801865
+      FrasesGO_29: -3452357536234879599
+      FrasesGO_3: 4279841849510607844
+      FrasesGO_30: -4950134397612426585
+      FrasesGO_31: -4484451390842516494
+      FrasesGO_32: 958984312522605744
+      FrasesGO_33: 5062733209974418369
+      FrasesGO_34: 3578967062010839402
+      FrasesGO_35: 5839462216533140784
+      FrasesGO_36: 3162737042498297268
+      FrasesGO_4: 6070954535125849475
+      FrasesGO_5: -8263170139350417795
+      FrasesGO_6: -3866101716593456367
+      FrasesGO_7: 4494421421481326090
+      FrasesGO_8: -3925627164392703811
+      FrasesGO_9: -3596501677573958243
+      Frases_Explodido: -1435747152710318586
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

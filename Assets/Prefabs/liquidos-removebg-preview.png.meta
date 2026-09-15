@@ -1,0 +1,2210 @@
+fileFormatVersion: 2
+guid: 3ba81a1ac6e7a2042bd16f2a11a4d163
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5662699111527923752
+    second: liquidos-removebg-preview_0
+  - first:
+      213: 3404017640060263542
+    second: liquidos-removebg-preview_1
+  - first:
+      213: -3071831734381623184
+    second: liquidos-removebg-preview_2
+  - first:
+      213: -4597539450097730950
+    second: liquidos-removebg-preview_3
+  - first:
+      213: -4086918555182877608
+    second: liquidos-removebg-preview_4
+  - first:
+      213: 8989332654357488444
+    second: liquidos-removebg-preview_5
+  - first:
+      213: 544633172196963790
+    second: liquidos-removebg-preview_6
+  - first:
+      213: -2313301881527167771
+    second: liquidos-removebg-preview_7
+  - first:
+      213: -715497288314836877
+    second: liquidos-removebg-preview_8
+  - first:
+      213: 2443096107171375329
+    second: liquidos-removebg-preview_9
+  - first:
+      213: 4865753613537111545
+    second: liquidos-removebg-preview_10
+  - first:
+      213: 3769304170382627680
+    second: liquidos-removebg-preview_11
+  - first:
+      213: 6146892946555076147
+    second: liquidos-removebg-preview_12
+  - first:
+      213: -3021645491202351919
+    second: liquidos-removebg-preview_13
+  - first:
+      213: -7754710351498707822
+    second: liquidos-removebg-preview_14
+  - first:
+      213: -8466404516545374600
+    second: liquidos-removebg-preview_15
+  - first:
+      213: 4899148059592542590
+    second: liquidos-removebg-preview_16
+  - first:
+      213: -1735113058233801809
+    second: liquidos-removebg-preview_17
+  - first:
+      213: 5067584540147181450
+    second: liquidos-removebg-preview_18
+  - first:
+      213: 5104104759538943122
+    second: liquidos-removebg-preview_19
+  - first:
+      213: 452740092464632604
+    second: liquidos-removebg-preview_20
+  - first:
+      213: 5081950187168150432
+    second: liquidos-removebg-preview_21
+  - first:
+      213: -9039649611306686830
+    second: liquidos-removebg-preview_22
+  - first:
+      213: -5192683189787004833
+    second: liquidos-removebg-preview_23
+  - first:
+      213: 218906119054842453
+    second: liquidos-removebg-preview_24
+  - first:
+      213: -5282654443095707679
+    second: liquidos-removebg-preview_25
+  - first:
+      213: 5733994986323243177
+    second: liquidos-removebg-preview_26
+  - first:
+      213: -6950969377704791775
+    second: liquidos-removebg-preview_27
+  - first:
+      213: 58197014604647486
+    second: liquidos-removebg-preview_28
+  - first:
+      213: 6372418795394911862
+    second: liquidos-removebg-preview_29
+  - first:
+      213: 3600405392699462632
+    second: liquidos-removebg-preview_30
+  - first:
+      213: -7466116022643300994
+    second: liquidos-removebg-preview_31
+  - first:
+      213: -58095078504197383
+    second: liquidos-removebg-preview_32
+  - first:
+      213: -7630973955891418021
+    second: liquidos-removebg-preview_33
+  - first:
+      213: 5426790976593856192
+    second: liquidos-removebg-preview_34
+  - first:
+      213: 5192072597956465365
+    second: liquidos-removebg-preview_35
+  - first:
+      213: 1792027532671799204
+    second: liquidos-removebg-preview_36
+  - first:
+      213: 8556212287847409343
+    second: liquidos-removebg-preview_37
+  - first:
+      213: -8801319874918957603
+    second: liquidos-removebg-preview_38
+  - first:
+      213: -6526400998745640506
+    second: liquidos-removebg-preview_39
+  - first:
+      213: -8485820823280700443
+    second: liquidos-removebg-preview_40
+  - first:
+      213: 3497225605327700809
+    second: liquidos-removebg-preview_41
+  - first:
+      213: -197833256283953959
+    second: liquidos-removebg-preview_42
+  - first:
+      213: 7454764860157532030
+    second: liquidos-removebg-preview_43
+  - first:
+      213: -730552149200843575
+    second: liquidos-removebg-preview_44
+  - first:
+      213: 375315630458996306
+    second: liquidos-removebg-preview_45
+  - first:
+      213: 3343009794842046017
+    second: liquidos-removebg-preview_46
+  - first:
+      213: 581786944690752354
+    second: liquidos-removebg-preview_47
+  - first:
+      213: 442192616003538184
+    second: liquidos-removebg-preview_48
+  - first:
+      213: 4735787507096707125
+    second: liquidos-removebg-preview_49
+  - first:
+      213: -1395601888012588859
+    second: liquidos-removebg-preview_50
+  - first:
+      213: -7294792017944935047
+    second: liquidos-removebg-preview_51
+  - first:
+      213: -6154274875164741805
+    second: liquidos-removebg-preview_52
+  - first:
+      213: 7914677590469577035
+    second: liquidos-removebg-preview_53
+  - first:
+      213: -7272136486491656305
+    second: liquidos-removebg-preview_54
+  - first:
+      213: 385030038525672091
+    second: liquidos-removebg-preview_55
+  - first:
+      213: 9123406564130858988
+    second: liquidos-removebg-preview_56
+  - first:
+      213: -4687398700359369903
+    second: liquidos-removebg-preview_57
+  - first:
+      213: 6399543836555545913
+    second: liquidos-removebg-preview_58
+  - first:
+      213: 2224143252565340948
+    second: liquidos-removebg-preview_59
+  - first:
+      213: 6598991481913139404
+    second: liquidos-removebg-preview_60
+  - first:
+      213: -8354565886507546733
+    second: liquidos-removebg-preview_61
+  - first:
+      213: 1537420220633615418
+    second: liquidos-removebg-preview_62
+  - first:
+      213: -4068235183444895115
+    second: liquidos-removebg-preview_63
+  - first:
+      213: 4212834250995045690
+    second: liquidos-removebg-preview_64
+  - first:
+      213: -7163853366249972926
+    second: liquidos-removebg-preview_65
+  - first:
+      213: 9222463497851510445
+    second: liquidos-removebg-preview_66
+  - first:
+      213: -2490558574959903055
+    second: liquidos-removebg-preview_67
+  - first:
+      213: 7042823361002520984
+    second: liquidos-removebg-preview_68
+  - first:
+      213: 6940766274549592410
+    second: liquidos-removebg-preview_69
+  - first:
+      213: -6897381023000515739
+    second: liquidos-removebg-preview_70
+  - first:
+      213: 2262880863125708071
+    second: liquidos-removebg-preview_71
+  - first:
+      213: -2056440377408437087
+    second: liquidos-removebg-preview_72
+  - first:
+      213: 522315755449055950
+    second: liquidos-removebg-preview_73
+  - first:
+      213: -851387859504689528
+    second: liquidos-removebg-preview_74
+  - first:
+      213: -4771284861399122741
+    second: liquidos-removebg-preview_75
+  - first:
+      213: 4219292813739289516
+    second: liquidos-removebg-preview_76
+  - first:
+      213: -2983997051945426539
+    second: liquidos-removebg-preview_77
+  - first:
+      213: 734064121284382884
+    second: liquidos-removebg-preview_78
+  - first:
+      213: -6105412551259487956
+    second: liquidos-removebg-preview_79
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 300
+        width: 131
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df357b092d0a61b0800000000000000
+      internalID: -5662699111527923752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 300
+        width: 132
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c94f422008d3f20800000000000000
+      internalID: 3404017640060263542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 300
+        width: 132
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07849661059ae55d0800000000000000
+      internalID: -3071831734381623184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 300
+        width: 133
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a741c9a324230c0800000000000000
+      internalID: -4597539450097730950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 220
+        width: 131
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8543f5c3a395847c0800000000000000
+      internalID: -4086918555182877608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 220
+        width: 132
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c332cceeb6680cc70800000000000000
+      internalID: 8989332654357488444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 220
+        width: 132
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5b1b90cfcee8700800000000000000
+      internalID: 544633172196963790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 220
+        width: 133
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e49455f13085efd0800000000000000
+      internalID: -2313301881527167771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 127
+        width: 178
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3782d34d10b0216f0800000000000000
+      internalID: -715497288314836877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 125
+        width: 209
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8e61427fe97e120800000000000000
+      internalID: 2443096107171375329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 82
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fde373b121a68340800000000000000
+      internalID: 4865753613537111545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 99
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0631e0e1c224f4430800000000000000
+      internalID: 3769304170382627680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 99
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ef4c731962e4550800000000000000
+      internalID: 6146892946555076147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 88
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc19b36f65f016d0800000000000000
+      internalID: -3021645491202351919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 87
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29cffd2850cb16490800000000000000
+      internalID: -7754710351498707822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 92
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 876dc8af2f9418a80800000000000000
+      internalID: -8466404516545374600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 95
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79ce0214354df340800000000000000
+      internalID: 4899148059592542590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 82
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa325d6ddd3abe7e0800000000000000
+      internalID: -1735113058233801809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 86
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87ebb04a4da35640800000000000000
+      internalID: 5067584540147181450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 92
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29403b07c3c65d640800000000000000
+      internalID: 5104104759538943122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 95
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c139ee227b4784600800000000000000
+      internalID: 452740092464632604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 89
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3336815c6b68640800000000000000
+      internalID: 5081950187168150432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 86
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29621189296bc8280800000000000000
+      internalID: -9039649611306686830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 93
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f507a91a622efe7b0800000000000000
+      internalID: -5192683189787004833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 90
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a5c6994f5b90300800000000000000
+      internalID: 218906119054842453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 101
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef2420d5cd30b6b0800000000000000
+      internalID: -5282654443095707679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 86
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0faaf5f0e339f40800000000000000
+      internalID: 5733994986323243177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 102
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 121b945cd22398f90800000000000000
+      internalID: -6950969377704791775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 71
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c8f7e50e1cec000800000000000000
+      internalID: 58197014604647486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 81
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e4983c1216f6850800000000000000
+      internalID: 6372418795394911862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 81
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3904ff0a537f130800000000000000
+      internalID: 3600405392699462632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 56
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e756e7ad807036890800000000000000
+      internalID: -7466116022643300994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 56
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f21f8a75da913ff0800000000000000
+      internalID: -58095078504197383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 65
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ca5d42e95591690800000000000000
+      internalID: -7630973955891418021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 61
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c60c2e04a5df4b40800000000000000
+      internalID: 5426790976593856192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 69
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d21c31e482fd0840800000000000000
+      internalID: 5192072597956465365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 80
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af4f90eb8f8ed810800000000000000
+      internalID: 1792027532671799204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 48
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb62af73eb5cdb670800000000000000
+      internalID: 8556212287847409343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 61
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dddbed4843e6bd580800000000000000
+      internalID: -8801319874918957603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 55
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1f208bed09d65a0800000000000000
+      internalID: -6526400998745640506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 58
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3bdb8cbee4c3a80800000000000000
+      internalID: -8485820823280700443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 63
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94345f0b824a88030800000000000000
+      internalID: 3497225605327700809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 65
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4af6a93b7214df0800000000000000
+      internalID: -197833256283953959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 62
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7711cda425a47760800000000000000
+      internalID: 7454764860157532030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 65
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc4cf0e0be8cd5f0800000000000000
+      internalID: -730552149200843575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 56
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2560920d393653500800000000000000
+      internalID: 375315630458996306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 63
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e263642b1c46e20800000000000000
+      internalID: 3343009794842046017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 45
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b804dc42ce21800800000000000000
+      internalID: 581786944690752354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 73
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d013767dbf22600800000000000000
+      internalID: 442192616003538184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 46
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5306b3c75a5e8b140800000000000000
+      internalID: 4735787507096707125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 61
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c825212a73d1ace0800000000000000
+      internalID: -1395601888012588859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 50
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97589042f41b3ca90800000000000000
+      internalID: -7294792017944935047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 42
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35fa1b79b9f979aa0800000000000000
+      internalID: -6154274875164741805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 52
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b490fa3b55596dd60800000000000000
+      internalID: 7914677590469577035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 17
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8fe18c156e241b90800000000000000
+      internalID: -7272136486491656305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 51
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a7d22b7c6e75500800000000000000
+      internalID: 385030038525672091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 17
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce7ac74aee9dc9e70800000000000000
+      internalID: 9123406564130858988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 49
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15bb37887b303feb0800000000000000
+      internalID: -4687398700359369903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_58
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 42
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d0f6e863fbfc850800000000000000
+      internalID: 6399543836555545913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 18
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4133db2118ebdde10800000000000000
+      internalID: 2224143252565340948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 43
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0e2433ac3549b50800000000000000
+      internalID: 6598991481913139404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 26
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3970f12379e9e0c80800000000000000
+      internalID: -8354565886507546733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_62
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 34
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c8e598b83065510800000000000000
+      internalID: 1537420220633615418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_63
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 34
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a5504b7a9ba87c0800000000000000
+      internalID: -4068235183444895115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_64
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 24
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3598244e6ef67a30800000000000000
+      internalID: 4212834250995045690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_65
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b1fa1b151e49c90800000000000000
+      internalID: -7163853366249972926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_66
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 34
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae127740b5ccff70800000000000000
+      internalID: 9222463497851510445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_67
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 17
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be363feb22cf6dd0800000000000000
+      internalID: -2490558574959903055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_68
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 22
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891c06848822db160800000000000000
+      internalID: 7042823361002520984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_69
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 34
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a513a87272e825060800000000000000
+      internalID: 6940766274549592410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_70
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 40
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ba883e0849740a0800000000000000
+      internalID: -6897381023000515739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_71
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 41
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d13afd72e576f10800000000000000
+      internalID: 2262880863125708071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_72
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 17
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a4ccca4f5e0673e0800000000000000
+      internalID: -2056440377408437087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_73
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 42
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca71288963af3700800000000000000
+      internalID: 522315755449055950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_74
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 18
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e842ca0434f24f0800000000000000
+      internalID: -851387859504689528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_75
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 18
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc3b1aa2bdf8cdb0800000000000000
+      internalID: -4771284861399122741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_76
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 19
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cabe9469570fd8a30800000000000000
+      internalID: 4219292813739289516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_77
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 18
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591eafbbd76b696d0800000000000000
+      internalID: -2983997051945426539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_78
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 18
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0d387dd6bef2a00800000000000000
+      internalID: 734064121284382884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liquidos-removebg-preview_79
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 18
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2187fae1a7354ba0800000000000000
+      internalID: -6105412551259487956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      liquidos-removebg-preview_0: -5662699111527923752
+      liquidos-removebg-preview_1: 3404017640060263542
+      liquidos-removebg-preview_10: 4865753613537111545
+      liquidos-removebg-preview_11: 3769304170382627680
+      liquidos-removebg-preview_12: 6146892946555076147
+      liquidos-removebg-preview_13: -3021645491202351919
+      liquidos-removebg-preview_14: -7754710351498707822
+      liquidos-removebg-preview_15: -8466404516545374600
+      liquidos-removebg-preview_16: 4899148059592542590
+      liquidos-removebg-preview_17: -1735113058233801809
+      liquidos-removebg-preview_18: 5067584540147181450
+      liquidos-removebg-preview_19: 5104104759538943122
+      liquidos-removebg-preview_2: -3071831734381623184
+      liquidos-removebg-preview_20: 452740092464632604
+      liquidos-removebg-preview_21: 5081950187168150432
+      liquidos-removebg-preview_22: -9039649611306686830
+      liquidos-removebg-preview_23: -5192683189787004833
+      liquidos-removebg-preview_24: 218906119054842453
+      liquidos-removebg-preview_25: -5282654443095707679
+      liquidos-removebg-preview_26: 5733994986323243177
+      liquidos-removebg-preview_27: -6950969377704791775
+      liquidos-removebg-preview_28: 58197014604647486
+      liquidos-removebg-preview_29: 6372418795394911862
+      liquidos-removebg-preview_3: -4597539450097730950
+      liquidos-removebg-preview_30: 3600405392699462632
+      liquidos-removebg-preview_31: -7466116022643300994
+      liquidos-removebg-preview_32: -58095078504197383
+      liquidos-removebg-preview_33: -7630973955891418021
+      liquidos-removebg-preview_34: 5426790976593856192
+      liquidos-removebg-preview_35: 5192072597956465365
+      liquidos-removebg-preview_36: 1792027532671799204
+      liquidos-removebg-preview_37: 8556212287847409343
+      liquidos-removebg-preview_38: -8801319874918957603
+      liquidos-removebg-preview_39: -6526400998745640506
+      liquidos-removebg-preview_4: -4086918555182877608
+      liquidos-removebg-preview_40: -8485820823280700443
+      liquidos-removebg-preview_41: 3497225605327700809
+      liquidos-removebg-preview_42: -197833256283953959
+      liquidos-removebg-preview_43: 7454764860157532030
+      liquidos-removebg-preview_44: -730552149200843575
+      liquidos-removebg-preview_45: 375315630458996306
+      liquidos-removebg-preview_46: 3343009794842046017
+      liquidos-removebg-preview_47: 581786944690752354
+      liquidos-removebg-preview_48: 442192616003538184
+      liquidos-removebg-preview_49: 4735787507096707125
+      liquidos-removebg-preview_5: 8989332654357488444
+      liquidos-removebg-preview_50: -1395601888012588859
+      liquidos-removebg-preview_51: -7294792017944935047
+      liquidos-removebg-preview_52: -6154274875164741805
+      liquidos-removebg-preview_53: 7914677590469577035
+      liquidos-removebg-preview_54: -7272136486491656305
+      liquidos-removebg-preview_55: 385030038525672091
+      liquidos-removebg-preview_56: 9123406564130858988
+      liquidos-removebg-preview_57: -4687398700359369903
+      liquidos-removebg-preview_58: 6399543836555545913
+      liquidos-removebg-preview_59: 2224143252565340948
+      liquidos-removebg-preview_6: 544633172196963790
+      liquidos-removebg-preview_60: 6598991481913139404
+      liquidos-removebg-preview_61: -8354565886507546733
+      liquidos-removebg-preview_62: 1537420220633615418
+      liquidos-removebg-preview_63: -4068235183444895115
+      liquidos-removebg-preview_64: 4212834250995045690
+      liquidos-removebg-preview_65: -7163853366249972926
+      liquidos-removebg-preview_66: 9222463497851510445
+      liquidos-removebg-preview_67: -2490558574959903055
+      liquidos-removebg-preview_68: 7042823361002520984
+      liquidos-removebg-preview_69: 6940766274549592410
+      liquidos-removebg-preview_7: -2313301881527167771
+      liquidos-removebg-preview_70: -6897381023000515739
+      liquidos-removebg-preview_71: 2262880863125708071
+      liquidos-removebg-preview_72: -2056440377408437087
+      liquidos-removebg-preview_73: 522315755449055950
+      liquidos-removebg-preview_74: -851387859504689528
+      liquidos-removebg-preview_75: -4771284861399122741
+      liquidos-removebg-preview_76: 4219292813739289516
+      liquidos-removebg-preview_77: -2983997051945426539
+      liquidos-removebg-preview_78: 734064121284382884
+      liquidos-removebg-preview_79: -6105412551259487956
+      liquidos-removebg-preview_8: -715497288314836877
+      liquidos-removebg-preview_9: 2443096107171375329
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

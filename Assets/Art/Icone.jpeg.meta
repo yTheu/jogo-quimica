@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9a5c0d03412916c359c2b37c391cbf22
+guid: 76be54668a5f65e42acf97c71d22f691
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7763666228202885418
-    second: menu-background-collision-lab_0
+      213: -5273086062067470998
+    second: Icone_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: menu-background-collision-lab_0
+      name: Icone_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1672
-        height: 941
+        width: 1254
+        height: 1254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6de2549f2bae14490800000000000000
-      internalID: -7763666228202885418
+      spriteID: a6da7602a2c32d6b0800000000000000
+      internalID: -5273086062067470998
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      menu-background-collision-lab_0: -7763666228202885418
+      Icone_0: -5273086062067470998
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

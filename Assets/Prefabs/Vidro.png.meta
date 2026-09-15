@@ -1,0 +1,1040 @@
+fileFormatVersion: 2
+guid: b0015a1332612cc4c806dc9fef641eb7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1240513845600977397
+    second: Vidro_0
+  - first:
+      213: 2659998827887638247
+    second: Vidro_1
+  - first:
+      213: 8956485191562943342
+    second: Vidro_2
+  - first:
+      213: 2863986788302247986
+    second: Vidro_3
+  - first:
+      213: 1383229357561302111
+    second: Vidro_4
+  - first:
+      213: 1243986737003820317
+    second: Vidro_5
+  - first:
+      213: 5981513504914188822
+    second: Vidro_6
+  - first:
+      213: -3372117862448337489
+    second: Vidro_7
+  - first:
+      213: -7372792163549143914
+    second: Vidro_8
+  - first:
+      213: 4170066249620158652
+    second: Vidro_9
+  - first:
+      213: 3421858362486685814
+    second: Vidro_10
+  - first:
+      213: -9110933563477440329
+    second: Vidro_11
+  - first:
+      213: 3420694127503394144
+    second: Vidro_12
+  - first:
+      213: 19157379623769115
+    second: Vidro_13
+  - first:
+      213: -3745824046217384584
+    second: Vidro_14
+  - first:
+      213: 2612665287986314700
+    second: Vidro_15
+  - first:
+      213: 6143659569905272660
+    second: Vidro_16
+  - first:
+      213: -210125307957680042
+    second: Vidro_17
+  - first:
+      213: -7892638666314136947
+    second: Vidro_18
+  - first:
+      213: 3971683011808850758
+    second: Vidro_19
+  - first:
+      213: -1162498857913685467
+    second: Vidro_20
+  - first:
+      213: 7143265587679615815
+    second: Vidro_21
+  - first:
+      213: -5969622890770062196
+    second: Vidro_22
+  - first:
+      213: 198907069398875869
+    second: Vidro_23
+  - first:
+      213: 2372639775653972275
+    second: Vidro_24
+  - first:
+      213: 5242385994994595264
+    second: Vidro_25
+  - first:
+      213: 9045417653627541014
+    second: Vidro_26
+  - first:
+      213: -181963366093940463
+    second: Vidro_27
+  - first:
+      213: 4574391806758624457
+    second: Vidro_28
+  - first:
+      213: 4666637675158586236
+    second: Vidro_29
+  - first:
+      213: 8637029567540868367
+    second: Vidro_30
+  - first:
+      213: 8860230041532273434
+    second: Vidro_31
+  - first:
+      213: 3357357536057915139
+    second: Vidro_32
+  - first:
+      213: 1821054201750982263
+    second: Vidro_33
+  - first:
+      213: 3685995953468036531
+    second: Vidro_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vidro_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 967
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0efffdda3fc8cee0800000000000000
+      internalID: -1240513845600977397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_1
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 829
+        width: 12
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6b23737d63ae420800000000000000
+      internalID: 2659998827887638247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_2
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 858
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6bd72704d3db4c70800000000000000
+      internalID: 8956485191562943342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_3
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 862
+        width: 42
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238da265fcceeb720800000000000000
+      internalID: 2863986788302247986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_4
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 0
+        width: 888
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c4554a5c7323310800000000000000
+      internalID: 1383229357561302111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_5
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 808
+        width: 48
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15f86ca857834110800000000000000
+      internalID: 1243986737003820317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_6
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 854
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61aac9f57da920350800000000000000
+      internalID: 5981513504914188822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_7
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 856
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad640c9ba4d331d0800000000000000
+      internalID: -3372117862448337489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_8
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 858
+        width: 48
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c9ed807949ea990800000000000000
+      internalID: -7372792163549143914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_9
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 848
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8747af82d0fd930800000000000000
+      internalID: 4170066249620158652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_10
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 829
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67008b70d02ec7f20800000000000000
+      internalID: 3421858362486685814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_11
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 805
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b84eb022367f8180800000000000000
+      internalID: -9110933563477440329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_12
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 821
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 065ca137f2fb87f20800000000000000
+      internalID: 3420694127503394144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_13
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 829
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b145d47098f044000800000000000000
+      internalID: 19157379623769115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_14
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 821
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87da81e40e8240cc0800000000000000
+      internalID: -3745824046217384584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_15
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 719
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccdfa67ac3d024420800000000000000
+      internalID: 2612665287986314700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_16
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 432
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 457022d04d9a24550800000000000000
+      internalID: 6143659569905272660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_17
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 418
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658ecdc452c751df0800000000000000
+      internalID: -210125307957680042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_18
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 428
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8245d133f6b77290800000000000000
+      internalID: -7892638666314136947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_19
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 402
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643f15708a04e1730800000000000000
+      internalID: 3971683011808850758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_20
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 90
+        width: 348
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ae14aa279fddfe0800000000000000
+      internalID: -1162498857913685467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_21
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 380
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b5ae1943af12360800000000000000
+      internalID: 7143265587679615815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_22
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 338
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c842c98fb93a72da0800000000000000
+      internalID: -5969622890770062196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_23
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 297
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde75defce8a2c200800000000000000
+      internalID: 198907069398875869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_24
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 227
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33941df1e4f4de020800000000000000
+      internalID: 2372639775653972275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_25
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 209
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5b22f7942b0c840800000000000000
+      internalID: 5242385994994595264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_26
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 196
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61654896e67c78d70800000000000000
+      internalID: 9045417653627541014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11916d95849897df0800000000000000
+      internalID: -181963366093940463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_28
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 70
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc1e41bc118b7f30800000000000000
+      internalID: 4574391806758624457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_29
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 66
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73484b9d3a33c040800000000000000
+      internalID: 4666637675158586236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_30
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 37
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05b1d771a4ecd770800000000000000
+      internalID: 8637029567540868367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_31
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 53
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1396cd774cd5fa70800000000000000
+      internalID: 8860230041532273434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_32
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 49
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30776b814eab79e20800000000000000
+      internalID: 3357357536057915139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_33
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 51
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e891ce52fa54910800000000000000
+      internalID: 1821054201750982263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidro_34
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 42
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b55df95ac9472330800000000000000
+      internalID: 3685995953468036531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Vidro_0: -1240513845600977397
+      Vidro_1: 2659998827887638247
+      Vidro_10: 3421858362486685814
+      Vidro_11: -9110933563477440329
+      Vidro_12: 3420694127503394144
+      Vidro_13: 19157379623769115
+      Vidro_14: -3745824046217384584
+      Vidro_15: 2612665287986314700
+      Vidro_16: 6143659569905272660
+      Vidro_17: -210125307957680042
+      Vidro_18: -7892638666314136947
+      Vidro_19: 3971683011808850758
+      Vidro_2: 8956485191562943342
+      Vidro_20: -1162498857913685467
+      Vidro_21: 7143265587679615815
+      Vidro_22: -5969622890770062196
+      Vidro_23: 198907069398875869
+      Vidro_24: 2372639775653972275
+      Vidro_25: 5242385994994595264
+      Vidro_26: 9045417653627541014
+      Vidro_27: -181963366093940463
+      Vidro_28: 4574391806758624457
+      Vidro_29: 4666637675158586236
+      Vidro_3: 2863986788302247986
+      Vidro_30: 8637029567540868367
+      Vidro_31: 8860230041532273434
+      Vidro_32: 3357357536057915139
+      Vidro_33: 1821054201750982263
+      Vidro_34: 3685995953468036531
+      Vidro_4: 1383229357561302111
+      Vidro_5: 1243986737003820317
+      Vidro_6: 5981513504914188822
+      Vidro_7: -3372117862448337489
+      Vidro_8: -7372792163549143914
+      Vidro_9: 4170066249620158652
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

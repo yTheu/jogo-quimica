@@ -5814,6 +5814,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   moveSpeed: 6
   jumpForce: 12
+  extremeSpeedMultiplier: 2.5
+  aceleracaoGelo: 8
+  velocidadeMaximaGelo: 10
   dashSpeed: 16
   dashDuration: 0.18
   dashCooldown: 0.7
@@ -6213,7 +6216,7 @@ GameObject:
   - component: {fileID: 1718865427}
   - component: {fileID: 1718865426}
   - component: {fileID: 1718865425}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Caixa
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -1,0 +1,1144 @@
+fileFormatVersion: 2
+guid: 09cf5dbab16f95b44b5080b81576d69b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3317339735894359361
+    second: BotaoPorta_0
+  - first:
+      213: 659306730595664363
+    second: BotaoPorta_1
+  - first:
+      213: 3641013638618820652
+    second: BotaoPorta_2
+  - first:
+      213: -5484905170225410228
+    second: BotaoPorta_3
+  - first:
+      213: -6641868947303831361
+    second: BotaoPorta_4
+  - first:
+      213: 4380569298660432196
+    second: BotaoPorta_5
+  - first:
+      213: 7322383366180255489
+    second: BotaoPorta_6
+  - first:
+      213: -8844841448389671219
+    second: BotaoPorta_7
+  - first:
+      213: 114438268115235049
+    second: BotaoPorta_8
+  - first:
+      213: -9072740638485530046
+    second: BotaoPorta_9
+  - first:
+      213: 9050674005505002236
+    second: BotaoPorta_10
+  - first:
+      213: 9161243325162763588
+    second: BotaoPorta_11
+  - first:
+      213: 1512027678475950433
+    second: BotaoPorta_12
+  - first:
+      213: 3607002226938656782
+    second: BotaoPorta_13
+  - first:
+      213: 6963097069154147324
+    second: BotaoPorta_14
+  - first:
+      213: -1831188866116731912
+    second: BotaoPorta_15
+  - first:
+      213: 2542994346859956297
+    second: BotaoPorta_16
+  - first:
+      213: 3559398165401968757
+    second: BotaoPorta_17
+  - first:
+      213: 5255196531408644019
+    second: BotaoPorta_18
+  - first:
+      213: -4790285701518123052
+    second: BotaoPorta_19
+  - first:
+      213: -5021404054762556335
+    second: BotaoPorta_20
+  - first:
+      213: -5800894522322134883
+    second: BotaoPorta_21
+  - first:
+      213: 6532762209896014374
+    second: BotaoPorta_22
+  - first:
+      213: 8639352740152153745
+    second: BotaoPorta_23
+  - first:
+      213: 5194917759698926221
+    second: BotaoPorta_24
+  - first:
+      213: -8202904283568150190
+    second: BotaoPorta_25
+  - first:
+      213: 1426833113716266838
+    second: BotaoPorta_26
+  - first:
+      213: 929869317599201619
+    second: BotaoPorta_27
+  - first:
+      213: -8145861803075978604
+    second: BotaoPorta_28
+  - first:
+      213: -8750200787769839296
+    second: BotaoPorta_29
+  - first:
+      213: 1500919985775988890
+    second: BotaoPorta_30
+  - first:
+      213: 3319955104401143073
+    second: BotaoPorta_31
+  - first:
+      213: -4402447942610954667
+    second: BotaoPorta_32
+  - first:
+      213: 5965994013082164902
+    second: BotaoPorta_33
+  - first:
+      213: -2038692022974294660
+    second: BotaoPorta_34
+  - first:
+      213: 8489644545271420411
+    second: BotaoPorta_35
+  - first:
+      213: -6048355529946883856
+    second: BotaoPorta_36
+  - first:
+      213: -4036022455574870390
+    second: BotaoPorta_37
+  - first:
+      213: 3912331406266100072
+    second: BotaoPorta_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BotaoPorta_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 735
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb28ab2161176f1d0800000000000000
+      internalID: -3317339735894359361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 785
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1cd237af3562900800000000000000
+      internalID: 659306730595664363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 787
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c203a380d9a778230800000000000000
+      internalID: 3641013638618820652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_3
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 769
+        width: 205
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4fc206dec3b1e3b0800000000000000
+      internalID: -5484905170225410228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_4
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 651
+        width: 201
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb8e14fe16753d3a0800000000000000
+      internalID: -6641868947303831361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_5
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 611
+        width: 135
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44913a06198eacc30800000000000000
+      internalID: 4380569298660432196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 23
+        width: 491
+        height: 695
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107376a30e45e9560800000000000000
+      internalID: 7322383366180255489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 679
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6051e809fc04580800000000000000
+      internalID: -8844841448389671219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_8
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 695
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e038bf9ff0969100800000000000000
+      internalID: 114438268115235049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_9
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 689
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ab1df6576271280800000000000000
+      internalID: -9072740638485530046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_10
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 651
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfaccf33e047a9d70800000000000000
+      internalID: 9050674005505002236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_11
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 631
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445be311446432f70800000000000000
+      internalID: 9161243325162763588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_12
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 661
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1691e1a992dcbf410800000000000000
+      internalID: 1512027678475950433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_13
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 609
+        width: 49
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08b8b82a65ae0230800000000000000
+      internalID: 3607002226938656782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_14
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 651
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb1f7f64e3e1a060800000000000000
+      internalID: 6963097069154147324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_15
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 655
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb3676ad6f4696e0800000000000000
+      internalID: -1831188866116731912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_16
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 606
+        width: 95
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9480a6692e78a4320800000000000000
+      internalID: 2542994346859956297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_17
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 614
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57026fed5c5856130800000000000000
+      internalID: 3559398165401968757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_18
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 641
+        width: 39
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b72a7fe6653ee840800000000000000
+      internalID: 5255196531408644019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_19
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 609
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df1164d88c758db0800000000000000
+      internalID: -4790285701518123052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_20
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 145
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154fb22ed93605ab0800000000000000
+      internalID: -5021404054762556335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_21
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 185
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98da799a251f7fa0800000000000000
+      internalID: -5800894522322134883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_22
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 191
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622a2fa2e9809aa50800000000000000
+      internalID: 6532762209896014374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_23
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 190
+        width: 49
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196111e3b8525e770800000000000000
+      internalID: 8639352740152153745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_24
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 195
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8af838bd2e081840800000000000000
+      internalID: 5194917759698926221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_25
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 71
+        width: 455
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259e363d30e692e80800000000000000
+      internalID: -8202904283568150190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_26
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 190
+        width: 45
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65792d048212dc310800000000000000
+      internalID: 1426833113716266838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_27
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 151
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359090bb73f87ec00800000000000000
+      internalID: 929869317599201619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_28
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 191
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49abb3649d514fe80800000000000000
+      internalID: -8145861803075978604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_29
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 189
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 041b2ab7eba019680800000000000000
+      internalID: -8750200787769839296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_30
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 99
+        width: 455
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90567c56c654d410800000000000000
+      internalID: 1500919985775988890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_31
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 191
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125331cd399d21e20800000000000000
+      internalID: 3319955104401143073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_32
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 177
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 556568edbec57e2c0800000000000000
+      internalID: -4402447942610954667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_33
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 191
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae9ed912f77bc250800000000000000
+      internalID: 5965994013082164902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_34
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 186
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c75d134186c15b3e0800000000000000
+      internalID: -2038692022974294660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_35
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 189
+        width: 60
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf55c3edbb641d570800000000000000
+      internalID: 8489644545271420411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_36
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 187
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f81f3ae0bcef0ca0800000000000000
+      internalID: -6048355529946883856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_37
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 167
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86c5fdd5fa2df7c0800000000000000
+      internalID: -4036022455574870390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotaoPorta_38
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 201
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86968128fa46b4630800000000000000
+      internalID: 3912331406266100072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BotaoPorta_0: -3317339735894359361
+      BotaoPorta_1: 659306730595664363
+      BotaoPorta_10: 9050674005505002236
+      BotaoPorta_11: 9161243325162763588
+      BotaoPorta_12: 1512027678475950433
+      BotaoPorta_13: 3607002226938656782
+      BotaoPorta_14: 6963097069154147324
+      BotaoPorta_15: -1831188866116731912
+      BotaoPorta_16: 2542994346859956297
+      BotaoPorta_17: 3559398165401968757
+      BotaoPorta_18: 5255196531408644019
+      BotaoPorta_19: -4790285701518123052
+      BotaoPorta_2: 3641013638618820652
+      BotaoPorta_20: -5021404054762556335
+      BotaoPorta_21: -5800894522322134883
+      BotaoPorta_22: 6532762209896014374
+      BotaoPorta_23: 8639352740152153745
+      BotaoPorta_24: 5194917759698926221
+      BotaoPorta_25: -8202904283568150190
+      BotaoPorta_26: 1426833113716266838
+      BotaoPorta_27: 929869317599201619
+      BotaoPorta_28: -8145861803075978604
+      BotaoPorta_29: -8750200787769839296
+      BotaoPorta_3: -5484905170225410228
+      BotaoPorta_30: 1500919985775988890
+      BotaoPorta_31: 3319955104401143073
+      BotaoPorta_32: -4402447942610954667
+      BotaoPorta_33: 5965994013082164902
+      BotaoPorta_34: -2038692022974294660
+      BotaoPorta_35: 8489644545271420411
+      BotaoPorta_36: -6048355529946883856
+      BotaoPorta_37: -4036022455574870390
+      BotaoPorta_38: 3912331406266100072
+      BotaoPorta_4: -6641868947303831361
+      BotaoPorta_5: 4380569298660432196
+      BotaoPorta_6: 7322383366180255489
+      BotaoPorta_7: -8844841448389671219
+      BotaoPorta_8: 114438268115235049
+      BotaoPorta_9: -9072740638485530046
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

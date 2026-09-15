@@ -8,6 +8,11 @@ public class PlayerController : MonoBehaviour
     [Header("Movimento")]
     [SerializeField] private float moveSpeed = 6f;
     [SerializeField] private float jumpForce = 12f;
+    [SerializeField] private float extremeSpeedMultiplier = 2.5f;
+
+    [Header("Gelo")]
+    [SerializeField] private float aceleracaoGelo = 8f;
+    [SerializeField] private float velocidadeMaximaGelo = 10f;
 
     [Header("Dash")]
     [SerializeField] private float dashSpeed = 16f;
@@ -22,10 +27,16 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
 
     private float horizontal;
+    private float mobileHorizontal;
+
     private float facingDirection = 1f;
     private float originalGravityScale;
 
+    private float velocidadeAtual;
+    private float velocidadeGelo;
+
     private bool isGrounded;
+    private bool estaNoGelo;
     private bool canDash = true;
 
     public bool IsDashing { get; private set; }
@@ -34,40 +45,45 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         originalGravityScale = rb.gravityScale;
+        velocidadeAtual = moveSpeed;
     }
 
     private void Update()
     {
-        Keyboard keyboard = Keyboard.current;
-
-        if (keyboard == null)
-            return;
+        CheckGround();
 
         if (!IsDashing)
         {
-            ReadMovement(keyboard);
-            CheckGround();
+            ReadMovement();
 
-            bool pressedJump =
-                keyboard.spaceKey.wasPressedThisFrame ||
-                keyboard.wKey.wasPressedThisFrame ||
-                keyboard.upArrowKey.wasPressedThisFrame;
+            Keyboard keyboard = Keyboard.current;
 
-            if (pressedJump && isGrounded)
+            if (keyboard != null)
             {
-                Vector2 velocity = rb.linearVelocity;
-                velocity.y = jumpForce;
-                rb.linearVelocity = velocity;
+                bool pressedJump =
+                    keyboard.spaceKey.wasPressedThisFrame ||
+                    keyboard.wKey.wasPressedThisFrame ||
+                    keyboard.upArrowKey.wasPressedThisFrame;
+
+                if (pressedJump)
+                {
+                    TentarPular();
+                }
             }
         }
 
-        bool pressedDash =
-            keyboard.leftShiftKey.wasPressedThisFrame ||
-            keyboard.rightShiftKey.wasPressedThisFrame;
+        Keyboard currentKeyboard = Keyboard.current;
 
-        if (pressedDash && canDash)
+        if (currentKeyboard != null)
         {
-            StartCoroutine(Dash());
+            bool pressedDash =
+                currentKeyboard.leftShiftKey.wasPressedThisFrame ||
+                currentKeyboard.rightShiftKey.wasPressedThisFrame;
+
+            if (pressedDash)
+            {
+                TentarDash();
+            }
         }
     }
 
@@ -77,25 +93,56 @@ public class PlayerController : MonoBehaviour
             return;
 
         Vector2 velocity = rb.linearVelocity;
-        velocity.x = horizontal * moveSpeed;
+
+        if (estaNoGelo && isGrounded)
+        {
+            if (Mathf.Abs(horizontal) > 0.01f)
+            {
+                float velocidadeAlvo = horizontal * velocidadeMaximaGelo;
+
+                velocidadeGelo = Mathf.MoveTowards(
+                    velocidadeGelo,
+                    velocidadeAlvo,
+                    aceleracaoGelo * Time.fixedDeltaTime
+                );
+            }
+
+            velocity.x = velocidadeGelo;
+        }
+        else
+        {
+            velocity.x = horizontal * velocidadeAtual;
+            velocidadeGelo = velocity.x;
+        }
+
         rb.linearVelocity = velocity;
     }
 
-    private void ReadMovement(Keyboard keyboard)
+    private void ReadMovement()
     {
-        horizontal = 0f;
+        float keyboardHorizontal = 0f;
 
-        if (keyboard.aKey.isPressed ||
-            keyboard.leftArrowKey.isPressed)
+        Keyboard keyboard = Keyboard.current;
+
+        if (keyboard != null)
         {
-            horizontal -= 1f;
+            if (keyboard.aKey.isPressed ||
+                keyboard.leftArrowKey.isPressed)
+            {
+                keyboardHorizontal -= 1f;
+            }
+
+            if (keyboard.dKey.isPressed ||
+                keyboard.rightArrowKey.isPressed)
+            {
+                keyboardHorizontal += 1f;
+            }
         }
 
-        if (keyboard.dKey.isPressed ||
-            keyboard.rightArrowKey.isPressed)
-        {
-            horizontal += 1f;
-        }
+        if (Mathf.Abs(mobileHorizontal) > 0.01f)
+            horizontal = mobileHorizontal;
+        else
+            horizontal = keyboardHorizontal;
 
         if (horizontal != 0f)
         {
@@ -105,11 +152,77 @@ public class PlayerController : MonoBehaviour
 
     private void CheckGround()
     {
-        isGrounded = Physics2D.OverlapCircle(
+        Collider2D collider = Physics2D.OverlapCircle(
             groundCheck.position,
             groundCheckRadius,
             groundLayer
-        ) != null;
+        );
+
+        isGrounded = collider != null;
+
+        if (collider != null)
+        {
+            estaNoGelo = collider.CompareTag("Gelo");
+        }
+        else
+        {
+            estaNoGelo = false;
+        }
+    }
+
+    private void TentarPular()
+    {
+        if (!isGrounded || IsDashing)
+            return;
+
+        Vector2 velocity = rb.linearVelocity;
+        velocity.y = jumpForce;
+        rb.linearVelocity = velocity;
+    }
+
+    private void TentarDash()
+    {
+        if (!canDash)
+            return;
+
+        StartCoroutine(Dash());
+    }
+
+    public void SetMobileHorizontal(float valor)
+    {
+        mobileHorizontal = Mathf.Clamp(valor, -1f, 1f);
+    }
+
+    public void MobileJump()
+    {
+        TentarPular();
+    }
+
+    public void MobileDash()
+    {
+        TentarDash();
+    }
+
+    public void AtualizarVelocidadePorTemperatura(int temperatura)
+    {
+        if (temperatura >= 11)
+        {
+            velocidadeAtual = moveSpeed * extremeSpeedMultiplier;
+            return;
+        }
+
+        float multiplicador;
+
+        if (temperatura < 5)
+        {
+            multiplicador = 1f - (5 - temperatura) * 0.15f;
+        }
+        else
+        {
+            multiplicador = 1f + (temperatura - 5) * 0.25f;
+        }
+
+        velocidadeAtual = moveSpeed * multiplicador;
     }
 
     private IEnumerator Dash()
@@ -128,6 +241,8 @@ public class PlayerController : MonoBehaviour
 
         rb.gravityScale = originalGravityScale;
         IsDashing = false;
+
+        velocidadeGelo = rb.linearVelocity.x;
 
         yield return new WaitForSeconds(dashCooldown);
 
