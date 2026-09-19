@@ -1,64 +1,49 @@
 fileFormatVersion: 2
-guid: 76aaa91b975653d459685d3703459ef1
+guid: eae724d959b611d4b89af0b75da321d3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 43574453372365267
-    second: numbers 1_0
+      213: 2473408163908181204
+    second: Numeros_0
   - first:
-      213: 4663386009962682398
-    second: numbers 1_1
+      213: 4390738559125405392
+    second: Numeros_1
   - first:
-      213: 1911629947046772524
-    second: numbers 1_2
+      213: 6798190839060049666
+    second: Numeros_2
   - first:
-      213: 641892294728356222
-    second: numbers 1_3
+      213: -2941360537967207744
+    second: Numeros_3
   - first:
-      213: -3275557542128489583
-    second: numbers 1_4
+      213: -1404782899183812283
+    second: Numeros_4
   - first:
-      213: -4107171178002675012
-    second: numbers 1_5
+      213: -8115887945584473503
+    second: Numeros_5
   - first:
-      213: 1242104038045856916
-    second: numbers 1_6
+      213: 2450101037505731212
+    second: Numeros_6
   - first:
-      213: -282547185785861731
-    second: numbers 1_7
+      213: -9123408538020605883
+    second: Numeros_7
   - first:
-      213: 5566062103335884501
-    second: numbers 1_8
+      213: 3260484430387071680
+    second: Numeros_8
   - first:
-      213: -6641600625768062884
-    second: numbers 1_9
+      213: 8761786229128350528
+    second: Numeros_9
   - first:
-      213: -4768710109735102108
-    second: numbers 1_10
+      213: -2985515311369384232
+    second: Numeros_10
   - first:
-      213: 2681464490981020565
-    second: numbers 1_11
+      213: -1843745146064196094
+    second: Numeros_11
   - first:
-      213: 6978284592131157019
-    second: numbers 1_12
+      213: -7107166225619803202
+    second: Numeros_12
   - first:
-      213: 3929090463018508994
-    second: numbers 1_13
-  - first:
-      213: 1482341406412406208
-    second: numbers 1_14
-  - first:
-      213: -6063623936145761220
-    second: numbers 1_15
-  - first:
-      213: 3389769647569116606
-    second: numbers 1_16
-  - first:
-      213: -8298799942769136692
-    second: numbers 1_17
-  - first:
-      213: 389874198081292025
-    second: numbers 1_18
+      213: 3222607092948694950
+    second: Numeros_13
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -91,7 +76,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -167,13 +152,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: numero_0
+      name: Numeros_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 216
-        width: 200
-        height: 310
+        x: 16
+        y: 240
+        width: 165
+        height: 253
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,42 +167,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3d9aa860cbeca9000800000000000000
-      internalID: 43574453372365267
+      spriteID: 4dc5c42de9f435220800000000000000
+      internalID: 2473408163908181204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: numero_2
+      name: Numeros_1
       rect:
         serializedVersion: 2
-        x: 424
-        y: 218
-        width: 195
-        height: 310
-      alignment: 9
-      pivot: {x: 0.43460798, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e71185324a578e800800000000000000
-      internalID: 641892294728356222
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: numero_3
-      rect:
-        serializedVersion: 2
-        x: 643
-        y: 216
-        width: 207
-        height: 310
+        x: 200
+        y: 240
+        width: 165
+        height: 253
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +189,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 19b641425c1ea82d0800000000000000
-      internalID: -3275557542128489583
+      spriteID: 0deb746d4790fec30800000000000000
+      internalID: 4390738559125405392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: numero_5
+      name: Numeros_2
       rect:
         serializedVersion: 2
-        x: 1092
-        y: 216
-        width: 184
-        height: 310
+        x: 380
+        y: 240
+        width: 159
+        height: 253
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +211,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cba8d6703956007c0800000000000000
-      internalID: -4107171178002675012
+      spriteID: 20f2d7dbc86085e50800000000000000
+      internalID: 6798190839060049666
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: numero_6
+      name: Numeros_3
       rect:
         serializedVersion: 2
-        x: 1301
-        y: 219
-        width: 212
-        height: 310
+        x: 573
+        y: 240
+        width: 156
+        height: 253
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,20 +233,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4943dc9aa07dc3110800000000000000
-      internalID: 1242104038045856916
+      spriteID: 0cadc1abc203e27d0800000000000000
+      internalID: -2941360537967207744
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: numero_8
+      name: Numeros_4
       rect:
         serializedVersion: 2
-        x: 1743
-        y: 217
-        width: 197
-        height: 310
+        x: 754
+        y: 240
+        width: 171
+        height: 253
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,20 +255,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d9982fed4d0341cf0800000000000000
-      internalID: -282547185785861731
+      spriteID: 5410b936565318ce0800000000000000
+      internalID: -1404782899183812283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: numero_1
+      name: Numeros_5
       rect:
         serializedVersion: 2
-        x: 230
-        y: 223
-        width: 175
-        height: 310
+        x: 945
+        y: 240
+        width: 152
+        height: 253
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,20 +277,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c5025196b6b44d3a0800000000000000
-      internalID: -6641600625768062884
+      spriteID: 16a009ec9e29e5f80800000000000000
+      internalID: -8115887945584473503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: numero_4
+      name: Numeros_6
       rect:
         serializedVersion: 2
-        x: 870
-        y: 216
-        width: 202
-        height: 310
+        x: 1128
+        y: 240
+        width: 173
+        height: 253
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,20 +299,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b1c2f8f2dd8d7d060800000000000000
-      internalID: 6978284592131157019
+      spriteID: c8a585499e1800220800000000000000
+      internalID: 2450101037505731212
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: numero_7
+      name: Numeros_7
       rect:
         serializedVersion: 2
-        x: 1531
-        y: 216
-        width: 193
-        height: 310
+        x: 1315
+        y: 240
+        width: 166
+        height: 253
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,20 +321,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ebd12c1e881ea0f20800000000000000
-      internalID: 3389769647569116606
+      spriteID: 5401486c544236180800000000000000
+      internalID: -9123408538020605883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: numero_9
+      name: Numeros_8
       rect:
         serializedVersion: 2
-        x: 1951
-        y: 216
-        width: 204
-        height: 310
+        x: 1506
+        y: 240
+        width: 157
+        height: 253
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,8 +343,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9f6c9bb748c196500800000000000000
-      internalID: 389874198081292025
+      spriteID: 0cac9ec80519f3d20800000000000000
+      internalID: 3260484430387071680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numeros_9
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 240
+        width: 176
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04bca19472e189970800000000000000
+      internalID: 8761786229128350528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numeros_10
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 246
+        width: 84
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de865a64a15196d0800000000000000
+      internalID: -2985515311369384232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numeros_11
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 303
+        width: 148
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e2e78ee83b966e0800000000000000
+      internalID: -1843745146064196094
       vertices: []
       indices: 
       edges: []
@@ -390,7 +419,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3fcd0544524b3344fb0e76a389152f30
+    spriteID: af3bf7b03cf8bb04a8511148a1f7cf4f
     internalID: 0
     vertices: []
     indices: 
@@ -400,25 +429,20 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      numbers 1_1: 4663386009962682398
-      numbers 1_10: -4768710109735102108
-      numbers 1_11: 2681464490981020565
-      numbers 1_13: 3929090463018508994
-      numbers 1_14: 1482341406412406208
-      numbers 1_15: -6063623936145761220
-      numbers 1_17: -8298799942769136692
-      numbers 1_2: 1911629947046772524
-      numbers 1_8: 5566062103335884501
-      numero_0: 43574453372365267
-      numero_1: -6641600625768062884
-      numero_2: 641892294728356222
-      numero_3: -3275557542128489583
-      numero_4: 6978284592131157019
-      numero_5: -4107171178002675012
-      numero_6: 1242104038045856916
-      numero_7: 3389769647569116606
-      numero_8: -282547185785861731
-      numero_9: 389874198081292025
+      Numeros_0: 2473408163908181204
+      Numeros_1: 4390738559125405392
+      Numeros_10: -2985515311369384232
+      Numeros_11: -1843745146064196094
+      Numeros_12: -7107166225619803202
+      Numeros_13: 3222607092948694950
+      Numeros_2: 6798190839060049666
+      Numeros_3: -2941360537967207744
+      Numeros_4: -1404782899183812283
+      Numeros_5: -8115887945584473503
+      Numeros_6: 2450101037505731212
+      Numeros_7: -9123408538020605883
+      Numeros_8: 3260484430387071680
+      Numeros_9: 8761786229128350528
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -11,7 +11,7 @@ public class RioCongelado : MonoBehaviour
         if (temperatureManager == null || agua == null || gelo == null)
             return;
 
-        bool congelado = temperatureManager.temperaturaAtual <= 3;
+        bool congelado = temperatureManager.temperaturaAtual <= 2;
 
         agua.SetActive(!congelado);
         gelo.SetActive(congelado);

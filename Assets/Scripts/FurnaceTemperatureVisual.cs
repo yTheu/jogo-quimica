@@ -13,12 +13,12 @@ public class FurnaceTemperatureVisual : MonoBehaviour
     {
         int temperatura = temperatureManager.temperaturaAtual;
 
-        estadoFrio.SetActive(temperatura >= 0 && temperatura <= 3);
-        estadoNormal.SetActive(temperatura >= 4 && temperatura <= 6);
-        estadoQuente.SetActive(temperatura >= 7 && temperatura <= 10);
-        estadoExtremo.SetActive(temperatura >= 11 && temperatura <= 14);
+        estadoFrio.SetActive(temperatura >= 0 && temperatura <= 2);
+        estadoNormal.SetActive(temperatura >= 3 && temperatura <= 5);
+        estadoQuente.SetActive(temperatura >= 6 && temperatura <= 10);
+        estadoExtremo.SetActive(temperatura == 11);
 
-        if (temperatura >= 15)
+        if (temperatura >= 12)
         {
             estadoFrio.SetActive(false);
             estadoNormal.SetActive(false);

@@ -1,14 +1,14 @@
 using System.Collections;
 using UnityEngine;
 
-public class BotaoPorta : MonoBehaviour
+public class ReleaseButton : MonoBehaviour
 {
-    [SerializeField] private PistaoPorta pistaoPorta;
-    [SerializeField] private float tempoAberto = 4f;
+    [SerializeField] private CollisionPuzzleController collisionPuzzle;
 
     [Header("Animacao do Botao")]
     [SerializeField] private float distanciaAfundar = 0.15f;
     [SerializeField] private float velocidadeBotao = 5f;
+    [SerializeField] private float tempoPressionado = 0.3f;
 
     private bool ativado;
 
@@ -40,19 +40,20 @@ public class BotaoPorta : MonoBehaviour
         if (ativado)
             return;
 
-        StartCoroutine(AtivarPorta());
+        StartCoroutine(Pressionar());
     }
 
-    private IEnumerator AtivarPorta()
+    private IEnumerator Pressionar()
     {
         ativado = true;
 
         posicaoAlvo = posicaoPressionada;
-        pistaoPorta.Abrir();
 
-        yield return new WaitForSeconds(tempoAberto);
+        if (collisionPuzzle != null)
+            collisionPuzzle.LiberarCarga();
 
-        pistaoPorta.Fechar();
+        yield return new WaitForSeconds(tempoPressionado);
+
         posicaoAlvo = posicaoNormal;
 
         ativado = false;

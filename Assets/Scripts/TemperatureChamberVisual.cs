@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PressureChamberVisual : MoleculeContainer
+public class TemperatureChamberVisual : MoleculeContainer
 {
     [Header("Moléculas")]
     [SerializeField] private MoleculeChamber moleculePrefab;
@@ -10,56 +10,59 @@ public class PressureChamberVisual : MoleculeContainer
 
     [Header("Área interna")]
     [SerializeField] private Vector2 chamberSize =
-        new Vector2(4f, 4f);
+        new Vector2(5f, 4f);
 
     [SerializeField] private float moleculePadding = 0.2f;
 
-    [Header("Pistões")]
-    [SerializeField] private Transform[] pistons;
-    [SerializeField] private float maximumPistonDescent = 1.8f;
-    [SerializeField] private float pistonMovementSpeed = 2f;
-
-    [Header("Velocidade visual")]
-    [SerializeField] private float maximumSpeedMultiplier = 1f;
+    [Header("Temperatura")]
+    [SerializeField] private TemperatureManager temperatureManager;
+    [SerializeField] private float minimumSpeedMultiplier = 0.25f;
+    [SerializeField] private float maximumSpeedMultiplier = 10f;
+    [SerializeField] private float thermalResponseSpeed = 10f;
 
     private readonly List<MoleculeChamber> molecules = new();
-    private Vector3[] initialPistonPositions;
 
-    private int pressureLevel;
-    private float currentCompression;
-    private float targetCompression;
+    private float internalTemperature;
+
+    public float InternalTemperature
+    {
+        get
+        {
+            return internalTemperature;
+        }
+    }
 
     private void Awake()
     {
-        SavePistonPositions();
         SpawnMolecules();
-        SetPressureLevel(0);
+    }
+
+    private void Start()
+    {
+        if (temperatureManager == null)
+            return;
+
+        internalTemperature =
+            temperatureManager.TemperaturaCelsius;
+
+        UpdateMoleculeSpeed();
     }
 
     private void Update()
     {
-        currentCompression = Mathf.MoveTowards(
-            currentCompression,
-            targetCompression,
-            pistonMovementSpeed * Time.deltaTime
+        if (temperatureManager == null)
+            return;
+
+        float targetTemperature =
+            temperatureManager.TemperaturaCelsius;
+
+        internalTemperature = Mathf.MoveTowards(
+            internalTemperature,
+            targetTemperature,
+            thermalResponseSpeed * Time.deltaTime
         );
 
-        UpdatePistons();
-    }
-
-    private void SavePistonPositions()
-    {
-        initialPistonPositions =
-            new Vector3[pistons.Length];
-
-        for (int i = 0; i < pistons.Length; i++)
-        {
-            if (pistons[i] != null)
-            {
-                initialPistonPositions[i] =
-                    pistons[i].localPosition;
-            }
-        }
+        UpdateMoleculeSpeed();
     }
 
     private void SpawnMolecules()
@@ -97,42 +100,24 @@ public class PressureChamberVisual : MoleculeContainer
         }
     }
 
-    public void SetPressureLevel(int level)
+    private void UpdateMoleculeSpeed()
     {
-        pressureLevel = Mathf.Clamp(level, 0, 3);
-
-        float normalizedPressure =
-            pressureLevel / 3f;
-
-        targetCompression =
-            maximumPistonDescent *
-            normalizedPressure;
+        float normalizedTemperature = Mathf.InverseLerp(
+            -25f,
+            112.5f,
+            internalTemperature
+        );
 
         float speedMultiplier = Mathf.Lerp(
-            1f,
+            minimumSpeedMultiplier,
             maximumSpeedMultiplier,
-            normalizedPressure
+            normalizedTemperature
         );
 
         foreach (MoleculeChamber molecule in molecules)
         {
             if (molecule != null)
                 molecule.SetSpeedMultiplier(speedMultiplier);
-        }
-    }
-
-    private void UpdatePistons()
-    {
-        for (int i = 0; i < pistons.Length; i++)
-        {
-            if (pistons[i] == null)
-                continue;
-
-            Vector3 targetPosition =
-                initialPistonPositions[i] +
-                Vector3.down * currentCompression;
-
-            pistons[i].localPosition = targetPosition;
         }
     }
 
@@ -156,28 +141,19 @@ public class PressureChamberVisual : MoleculeContainer
 
         maximumY =
             chamberSize.y / 2f -
-            moleculePadding -
-            currentCompression;
-
-        if (maximumY < minimumY)
-            maximumY = minimumY;
+            moleculePadding;
     }
 
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.cyan;
 
-        Vector3 center = transform.position +
-                         Vector3.down *
-                         currentCompression *
-                         0.5f;
-
         Vector3 size = new Vector3(
             chamberSize.x,
-            chamberSize.y - currentCompression,
+            chamberSize.y,
             0f
         );
 
-        Gizmos.DrawWireCube(center, size);
+        Gizmos.DrawWireCube(transform.position, size);
     }
 }

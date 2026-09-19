@@ -24,6 +24,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float groundCheckRadius = 0.15f;
     [SerializeField] private LayerMask groundLayer;
 
+    [Header("Diálogo")]
+    [SerializeField] private RafaelDialogueController rafaelDialogue;
+
     private Rigidbody2D rb;
 
     private float horizontal;
@@ -41,6 +44,24 @@ public class PlayerController : MonoBehaviour
 
     public bool IsDashing { get; private set; }
 
+    public bool EstaSeMovendoHorizontalmente
+    {
+        get
+        {
+            return !DialogoAtivo &&
+                   !IsDashing &&
+                   Mathf.Abs(rb.linearVelocity.x) > 0.1f;
+        }
+    }
+
+    private bool DialogoAtivo
+    {
+        get
+        {
+            return rafaelDialogue != null && rafaelDialogue.DialogoAtivo;
+        }
+    }
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -51,6 +72,13 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         CheckGround();
+
+        if (DialogoAtivo)
+        {
+            horizontal = 0f;
+            mobileHorizontal = 0f;
+            return;
+        }
 
         if (!IsDashing)
         {
@@ -89,10 +117,18 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (DialogoAtivo)
+        {
+            Vector2 velocity = rb.linearVelocity;
+            velocity.x = 0f;
+            rb.linearVelocity = velocity;
+            return;
+        }
+
         if (IsDashing)
             return;
 
-        Vector2 velocity = rb.linearVelocity;
+        Vector2 velocityAtualRb = rb.linearVelocity;
 
         if (estaNoGelo && isGrounded)
         {
@@ -107,15 +143,15 @@ public class PlayerController : MonoBehaviour
                 );
             }
 
-            velocity.x = velocidadeGelo;
+            velocityAtualRb.x = velocidadeGelo;
         }
         else
         {
-            velocity.x = horizontal * velocidadeAtual;
-            velocidadeGelo = velocity.x;
+            velocityAtualRb.x = horizontal * velocidadeAtual;
+            velocidadeGelo = velocityAtualRb.x;
         }
 
-        rb.linearVelocity = velocity;
+        rb.linearVelocity = velocityAtualRb;
     }
 
     private void ReadMovement()
@@ -172,7 +208,7 @@ public class PlayerController : MonoBehaviour
 
     private void TentarPular()
     {
-        if (!isGrounded || IsDashing)
+        if (DialogoAtivo || !isGrounded || IsDashing)
             return;
 
         Vector2 velocity = rb.linearVelocity;
@@ -182,7 +218,7 @@ public class PlayerController : MonoBehaviour
 
     private void TentarDash()
     {
-        if (!canDash)
+        if (DialogoAtivo || !canDash)
             return;
 
         StartCoroutine(Dash());
@@ -190,16 +226,28 @@ public class PlayerController : MonoBehaviour
 
     public void SetMobileHorizontal(float valor)
     {
+        if (DialogoAtivo)
+        {
+            mobileHorizontal = 0f;
+            return;
+        }
+
         mobileHorizontal = Mathf.Clamp(valor, -1f, 1f);
     }
 
     public void MobileJump()
     {
+        if (DialogoAtivo)
+            return;
+
         TentarPular();
     }
 
     public void MobileDash()
     {
+        if (DialogoAtivo)
+            return;
+
         TentarDash();
     }
 
@@ -213,13 +261,13 @@ public class PlayerController : MonoBehaviour
 
         float multiplicador;
 
-        if (temperatura < 5)
+        if (temperatura < 4)
         {
-            multiplicador = 1f - (5 - temperatura) * 0.15f;
+            multiplicador = 1f - (4 - temperatura) * 0.15f;
         }
         else
         {
-            multiplicador = 1f + (temperatura - 5) * 0.25f;
+            multiplicador = 1f + (temperatura - 4) * 0.25f;
         }
 
         velocidadeAtual = moveSpeed * multiplicador;

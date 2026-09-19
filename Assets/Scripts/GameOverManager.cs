@@ -9,7 +9,9 @@ public class GameOverManager : MonoBehaviour
         Afogado,
         Explosao,
         Laser,
-        Espinhos
+        Espinhos,
+        FrioExtremo,
+        AguaFervente
     }
 
     [Header("Painel")]
@@ -21,6 +23,8 @@ public class GameOverManager : MonoBehaviour
     [SerializeField] private Sprite fraseExplosao;
     [SerializeField] private Sprite fraseLaser;
     [SerializeField] private Sprite fraseEspinhos;
+    [SerializeField] private Sprite fraseFrioExtremo;
+    [SerializeField] private Sprite fraseAguaFervente;
 
     [Header("Personagem")]
     [SerializeField] private Image personagemMorto;
@@ -28,6 +32,8 @@ public class GameOverManager : MonoBehaviour
     [SerializeField] private Sprite spriteExplosao;
     [SerializeField] private Sprite spriteLaser;
     [SerializeField] private Sprite spriteEspinhos;
+    [SerializeField] private Sprite spriteFrioExtremo;
+    [SerializeField] private Sprite spriteAguaFervente;
 
     public void GameOver(TipoMorte tipoMorte)
     {
@@ -52,6 +58,16 @@ public class GameOverManager : MonoBehaviour
                 fraseMorte.sprite = fraseEspinhos;
                 personagemMorto.sprite = spriteEspinhos;
                 break;
+
+            case TipoMorte.FrioExtremo:
+                fraseMorte.sprite = fraseFrioExtremo;
+                personagemMorto.sprite = spriteFrioExtremo;
+                break;
+
+            case TipoMorte.AguaFervente:
+                fraseMorte.sprite = fraseAguaFervente;
+                personagemMorto.sprite = spriteAguaFervente;
+                break;
         }
 
         goPanel.SetActive(true);
@@ -60,6 +76,8 @@ public class GameOverManager : MonoBehaviour
 
     public void TentarNovamente()
     {
+        RafaelDialogueController.PularIntroducaoAoReiniciar = true;
+
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
