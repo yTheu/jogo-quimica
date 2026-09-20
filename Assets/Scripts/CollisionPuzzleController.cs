@@ -3,6 +3,7 @@ using UnityEngine;
 public class CollisionPuzzleController : MonoBehaviour
 {
     [SerializeField] private TemperatureChamberVisual temperatureChamber;
+    [SerializeField] private PistaoPorta pistaoPorta;
 
     [Header("Faixa de ativação")]
     [SerializeField] private float temperaturaMinima = 78.5f;
@@ -96,5 +97,18 @@ public class CollisionPuzzleController : MonoBehaviour
             primeira,
             segunda
         );
+    }
+
+    public void ConcluirPuzzle()
+    {
+        if (puzzleConcluido)
+            return;
+
+        puzzleConcluido = true;
+
+        Debug.Log("PUZZLE DE COLISÃO CONCLUÍDO!");
+
+        if (pistaoPorta != null)
+            pistaoPorta.Abrir();
     }
 }

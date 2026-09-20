@@ -176,6 +176,15 @@ public class TemperatureChamberVisual : MoleculeContainer
             purpleMoleculeCount +
             "/4"
         );
+
+        if (purpleMoleculeCount >= moleculesPerType)
+        {
+            CollisionPuzzleController collisionPuzzle =
+                GetComponent<CollisionPuzzleController>();
+
+            if (collisionPuzzle != null)
+                collisionPuzzle.ConcluirPuzzle();
+        }
     }
 
     private void UpdateMoleculeSpeed()
