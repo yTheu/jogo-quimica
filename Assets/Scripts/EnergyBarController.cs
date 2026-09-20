@@ -6,7 +6,7 @@ public class EnergyBarController : MonoBehaviour
     [SerializeField] private TemperatureChamberVisual temperatureChamber;
     [SerializeField] private Image fillImage;
     [SerializeField] private RectTransform activationMarker;
-    [SerializeField] private float activationTemperature = 75f;
+    [SerializeField] private float activationTemperature = 81.25f;
 
     private RectTransform barRect;
 

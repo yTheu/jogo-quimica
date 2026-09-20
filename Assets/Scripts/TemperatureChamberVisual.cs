@@ -4,9 +4,13 @@ using UnityEngine;
 public class TemperatureChamberVisual : MoleculeContainer
 {
     [Header("Moléculas")]
-    [SerializeField] private MoleculeChamber moleculePrefab;
+    [SerializeField] private MoleculeChamber redMoleculePrefab;
+    [SerializeField] private MoleculeChamber blueMoleculePrefab;
+    [SerializeField] private GameObject purpleMoleculePrefab;
     [SerializeField] private Transform moleculeContainer;
-    [SerializeField] private int moleculeCount = 12;
+    [SerializeField] private Transform moleculeSpawnPoint;
+    [SerializeField] private int moleculesPerType = 4;
+    [SerializeField] private float launchSpread = 0.35f;
 
     [Header("Área interna")]
     [SerializeField] private Vector2 chamberSize =
@@ -23,6 +27,7 @@ public class TemperatureChamberVisual : MoleculeContainer
     private readonly List<MoleculeChamber> molecules = new();
 
     private float internalTemperature;
+    private int purpleMoleculeCount;
 
     public float InternalTemperature
     {
@@ -32,9 +37,12 @@ public class TemperatureChamberVisual : MoleculeContainer
         }
     }
 
-    private void Awake()
+    public int PurpleMoleculeCount
     {
-        SpawnMolecules();
+        get
+        {
+            return purpleMoleculeCount;
+        }
     }
 
     private void Start()
@@ -44,8 +52,6 @@ public class TemperatureChamberVisual : MoleculeContainer
 
         internalTemperature =
             temperatureManager.TemperaturaCelsius;
-
-        UpdateMoleculeSpeed();
     }
 
     private void Update()
@@ -65,39 +71,111 @@ public class TemperatureChamberVisual : MoleculeContainer
         UpdateMoleculeSpeed();
     }
 
-    private void SpawnMolecules()
+    public void LiberarMoleculas()
     {
-        if (moleculePrefab == null ||
-            moleculeContainer == null)
+        if (redMoleculePrefab == null ||
+            blueMoleculePrefab == null ||
+            moleculeContainer == null ||
+            moleculeSpawnPoint == null)
         {
             return;
         }
 
-        for (int i = 0; i < moleculeCount; i++)
+        for (int i = 0; i < moleculesPerType; i++)
         {
-            GetMovementLimits(
-                out float minimumX,
-                out float maximumX,
-                out float minimumY,
-                out float maximumY
-            );
-
-            Vector3 position = new Vector3(
-                Random.Range(minimumX, maximumX),
-                Random.Range(minimumY, maximumY),
-                0f
-            );
-
-            MoleculeChamber molecule = Instantiate(
-                moleculePrefab,
-                moleculeContainer
-            );
-
-            molecule.transform.localPosition = position;
-            molecule.Initialize(this);
-
-            molecules.Add(molecule);
+            SpawnMolecule(redMoleculePrefab);
+            SpawnMolecule(blueMoleculePrefab);
         }
+
+        UpdateMoleculeSpeed();
+    }
+
+    private void SpawnMolecule(MoleculeChamber prefab)
+    {
+        MoleculeChamber molecule = Instantiate(
+            prefab,
+            moleculeContainer
+        );
+
+        molecule.transform.position =
+            moleculeSpawnPoint.position;
+
+        Vector2 launchDirection = new Vector2(
+            Random.Range(-launchSpread, launchSpread),
+            -1f
+        ).normalized;
+
+        molecule.Initialize(
+            this,
+            launchDirection
+        );
+
+        molecules.Add(molecule);
+    }
+
+    public void CriarProduto(
+        MoleculeChamber primeira,
+        MoleculeChamber segunda)
+    {
+        if (primeira == null ||
+            segunda == null ||
+            purpleMoleculePrefab == null)
+        {
+            return;
+        }
+
+        if (purpleMoleculeCount >= moleculesPerType)
+            return;
+
+        Vector3 collisionPosition =
+            (primeira.transform.position +
+             segunda.transform.position) * 0.5f;
+
+        molecules.Remove(primeira);
+        molecules.Remove(segunda);
+
+        Destroy(primeira.gameObject);
+        Destroy(segunda.gameObject);
+
+        GameObject purpleObject = Instantiate(
+            purpleMoleculePrefab,
+            collisionPosition,
+            Quaternion.identity,
+            moleculeContainer
+        );
+
+        MoleculeChamber purpleMolecule =
+            purpleObject.GetComponent<MoleculeChamber>();
+
+        if (purpleMolecule != null)
+        {
+            purpleMolecule.Initialize(this);
+            molecules.Add(purpleMolecule);
+
+            float normalizedTemperature = Mathf.InverseLerp(
+                -25f,
+                112.5f,
+                internalTemperature
+            );
+
+            float speedMultiplier = Mathf.Lerp(
+                minimumSpeedMultiplier,
+                maximumSpeedMultiplier,
+                normalizedTemperature
+            );
+
+            purpleMolecule.SetSpeedMultiplier(
+                speedMultiplier
+            );
+        }
+
+        purpleMoleculeCount++;
+
+        Debug.Log(
+            "Produto formado: " +
+            purpleMoleculeCount +
+            "/4"
+        );
     }
 
     private void UpdateMoleculeSpeed()
@@ -154,6 +232,9 @@ public class TemperatureChamberVisual : MoleculeContainer
             0f
         );
 
-        Gizmos.DrawWireCube(transform.position, size);
+        Gizmos.DrawWireCube(
+            transform.position,
+            size
+        );
     }
 }

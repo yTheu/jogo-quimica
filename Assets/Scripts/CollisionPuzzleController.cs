@@ -2,36 +2,99 @@ using UnityEngine;
 
 public class CollisionPuzzleController : MonoBehaviour
 {
-    [SerializeField] private int cargasMaximas = 3;
+    [SerializeField] private TemperatureChamberVisual temperatureChamber;
 
-    private int cargasRestantes;
+    [Header("Faixa de ativação")]
+    [SerializeField] private float temperaturaMinima = 78.5f;
+    [SerializeField] private float temperaturaMaxima = 84f;
+    [SerializeField] private float tempoNecessario = 3f;
 
-    public int CargasRestantes
+    private bool cargaLiberada;
+    private bool energiaDeAtivacaoAtingida;
+    private bool puzzleConcluido;
+    private float tempoNaFaixa;
+
+    public bool PodeOcorrerColisaoEfetiva
     {
         get
         {
-            return cargasRestantes;
+            return cargaLiberada &&
+                   energiaDeAtivacaoAtingida &&
+                   !puzzleConcluido;
         }
-    }
-
-    private void Start()
-    {
-        cargasRestantes = cargasMaximas;
     }
 
     public void LiberarCarga()
     {
-        if (cargasRestantes <= 0)
+        if (cargaLiberada || puzzleConcluido)
+            return;
+
+        if (temperatureChamber == null)
+            return;
+
+        cargaLiberada = true;
+        energiaDeAtivacaoAtingida = false;
+        tempoNaFaixa = 0f;
+
+        temperatureChamber.LiberarMoleculas();
+
+        Debug.Log("Carga liberada. Mantenha a energia na faixa de ativação.");
+    }
+
+    private void Update()
+    {
+        if (!cargaLiberada ||
+            puzzleConcluido ||
+            energiaDeAtivacaoAtingida)
         {
-            Debug.Log("Sem cargas de reagentes disponíveis.");
             return;
         }
 
-        cargasRestantes--;
+        float temperatura =
+            temperatureChamber.InternalTemperature;
 
-        Debug.Log(
-            "Carga liberada. Cargas restantes: " +
-            cargasRestantes
+        bool dentroDaFaixa =
+            temperatura >= temperaturaMinima &&
+            temperatura <= temperaturaMaxima;
+
+        if (dentroDaFaixa)
+        {
+            tempoNaFaixa += Time.deltaTime;
+
+            if (tempoNaFaixa >= tempoNecessario)
+            {
+                energiaDeAtivacaoAtingida = true;
+                Debug.Log("ENERGIA DE ATIVAÇÃO ATINGIDA!");
+            }
+        }
+        else
+        {
+            tempoNaFaixa = 0f;
+        }
+    }
+
+    public void RegistrarColisaoEfetiva(
+        MoleculeChamber primeira,
+        MoleculeChamber segunda)
+    {
+        if (!PodeOcorrerColisaoEfetiva)
+            return;
+
+        if (primeira == null || segunda == null)
+            return;
+
+        bool redBlue =
+            (primeira.Type == MoleculeChamber.MoleculeType.Red &&
+             segunda.Type == MoleculeChamber.MoleculeType.Blue) ||
+            (primeira.Type == MoleculeChamber.MoleculeType.Blue &&
+             segunda.Type == MoleculeChamber.MoleculeType.Red);
+
+        if (!redBlue)
+            return;
+
+        temperatureChamber.CriarProduto(
+            primeira,
+            segunda
         );
     }
 }
