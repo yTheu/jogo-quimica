@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: b35326690f9e4714d9581311d524681c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2979720636236327280
+    second: Aneis_0
+  - first:
+      213: -3568578673620682157
+    second: Aneis_1
+  - first:
+      213: 1312993162488603466
+    second: Aneis_2
+  - first:
+      213: -922470632886106358
+    second: Aneis_3
+  - first:
+      213: -420407317229051229
+    second: Aneis_4
+  - first:
+      213: -2785286555764475836
+    second: Aneis_5
+  - first:
+      213: 846659047808567190
+    second: Aneis_6
+  - first:
+      213: 1449819563085219339
+    second: Aneis_7
+  - first:
+      213: 901251512611320645
+    second: Aneis_8
+  - first:
+      213: -8502963335687604975
+    second: Aneis_9
+  - first:
+      213: 5699313935538914054
+    second: Aneis_10
+  - first:
+      213: 856286139598640197
+    second: Aneis_11
+  - first:
+      213: -3436460523661979805
+    second: Aneis_12
+  - first:
+      213: -1054911197595578882
+    second: Aneis_13
+  - first:
+      213: -2221306333707724374
+    second: Aneis_14
+  - first:
+      213: -8883220305614584564
+    second: Aneis_15
+  - first:
+      213: -1511615209987793732
+    second: Aneis_16
+  - first:
+      213: -6215220376727039668
+    second: Aneis_17
+  - first:
+      213: -6497586851603923645
+    second: Aneis_18
+  - first:
+      213: 7157141569830985885
+    second: Aneis_19
+  - first:
+      213: 6999023319353461536
+    second: Aneis_20
+  - first:
+      213: -5046667519801429801
+    second: Aneis_21
+  - first:
+      213: 5924756800469752112
+    second: Aneis_22
+  - first:
+      213: -8137151038546911394
+    second: Aneis_23
+  - first:
+      213: 3179008980978994801
+    second: Aneis_24
+  - first:
+      213: -73885989825403212
+    second: Aneis_25
+  - first:
+      213: 2520719073236627285
+    second: Aneis_26
+  - first:
+      213: -7254803689707567876
+    second: Aneis_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Aneis_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 63
+        width: 801
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0969b3b5ed7e5a6d0800000000000000
+      internalID: -2979720636236327280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aneis_1
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 63
+        width: 801
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35afdcd7a9cd97ec0800000000000000
+      internalID: -3568578673620682157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3e68b6ca07344fc4b9de38004d12bb86
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Aneis_0: -2979720636236327280
+      Aneis_1: -3568578673620682157
+      Aneis_10: 5699313935538914054
+      Aneis_11: 856286139598640197
+      Aneis_12: -3436460523661979805
+      Aneis_13: -1054911197595578882
+      Aneis_14: -2221306333707724374
+      Aneis_15: -8883220305614584564
+      Aneis_16: -1511615209987793732
+      Aneis_17: -6215220376727039668
+      Aneis_18: -6497586851603923645
+      Aneis_19: 7157141569830985885
+      Aneis_2: 1312993162488603466
+      Aneis_20: 6999023319353461536
+      Aneis_21: -5046667519801429801
+      Aneis_22: 5924756800469752112
+      Aneis_23: -8137151038546911394
+      Aneis_24: 3179008980978994801
+      Aneis_25: -73885989825403212
+      Aneis_26: 2520719073236627285
+      Aneis_27: -7254803689707567876
+      Aneis_3: -922470632886106358
+      Aneis_4: -420407317229051229
+      Aneis_5: -2785286555764475836
+      Aneis_6: 846659047808567190
+      Aneis_7: 1449819563085219339
+      Aneis_8: 901251512611320645
+      Aneis_9: -8502963335687604975
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

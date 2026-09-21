@@ -12,6 +12,9 @@ public class TemperatureChamberVisual : MoleculeContainer
     [SerializeField] private int moleculesPerType = 4;
     [SerializeField] private float launchSpread = 0.35f;
 
+    [Header("Efeitos")]
+    [SerializeField] private GameObject effectiveCollisionVFXPrefab;
+
     [Header("Área interna")]
     [SerializeField] private Vector2 chamberSize =
         new Vector2(5f, 4f);
@@ -130,6 +133,15 @@ public class TemperatureChamberVisual : MoleculeContainer
         Vector3 collisionPosition =
             (primeira.transform.position +
              segunda.transform.position) * 0.5f;
+
+        if (effectiveCollisionVFXPrefab != null)
+        {
+            Instantiate(
+                effectiveCollisionVFXPrefab,
+                collisionPosition,
+                Quaternion.identity
+            );
+        }
 
         molecules.Remove(primeira);
         molecules.Remove(segunda);

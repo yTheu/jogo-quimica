@@ -9,11 +9,13 @@ public class CollisionPuzzleController : MonoBehaviour
     [SerializeField] private float temperaturaMinima = 78.5f;
     [SerializeField] private float temperaturaMaxima = 84f;
     [SerializeField] private float tempoNecessario = 3f;
+    [SerializeField] private float toleranciaForaDaFaixa = 0.5f;
 
     private bool cargaLiberada;
     private bool energiaDeAtivacaoAtingida;
     private bool puzzleConcluido;
     private float tempoNaFaixa;
+    private float tempoForaDaFaixa;
 
     public bool PodeOcorrerColisaoEfetiva
     {
@@ -36,23 +38,18 @@ public class CollisionPuzzleController : MonoBehaviour
         cargaLiberada = true;
         energiaDeAtivacaoAtingida = false;
         tempoNaFaixa = 0f;
+        tempoForaDaFaixa = 0f;
 
         temperatureChamber.LiberarMoleculas();
-
         Debug.Log("Carga liberada. Mantenha a energia na faixa de ativação.");
     }
 
     private void Update()
     {
-        if (!cargaLiberada ||
-            puzzleConcluido ||
-            energiaDeAtivacaoAtingida)
-        {
+        if (!cargaLiberada || puzzleConcluido || energiaDeAtivacaoAtingida)
             return;
-        }
 
-        float temperatura =
-            temperatureChamber.InternalTemperature;
+        float temperatura = temperatureChamber.InternalTemperature;
 
         bool dentroDaFaixa =
             temperatura >= temperaturaMinima &&
@@ -60,6 +57,7 @@ public class CollisionPuzzleController : MonoBehaviour
 
         if (dentroDaFaixa)
         {
+            tempoForaDaFaixa = 0f;
             tempoNaFaixa += Time.deltaTime;
 
             if (tempoNaFaixa >= tempoNecessario)
@@ -70,13 +68,17 @@ public class CollisionPuzzleController : MonoBehaviour
         }
         else
         {
-            tempoNaFaixa = 0f;
+            tempoForaDaFaixa += Time.deltaTime;
+
+            if (tempoForaDaFaixa >= toleranciaForaDaFaixa)
+            {
+                tempoNaFaixa = 0f;
+                tempoForaDaFaixa = 0f;
+            }
         }
     }
 
-    public void RegistrarColisaoEfetiva(
-        MoleculeChamber primeira,
-        MoleculeChamber segunda)
+    public void RegistrarColisaoEfetiva(MoleculeChamber primeira, MoleculeChamber segunda)
     {
         if (!PodeOcorrerColisaoEfetiva)
             return;
@@ -93,10 +95,7 @@ public class CollisionPuzzleController : MonoBehaviour
         if (!redBlue)
             return;
 
-        temperatureChamber.CriarProduto(
-            primeira,
-            segunda
-        );
+        temperatureChamber.CriarProduto(primeira, segunda);
     }
 
     public void ConcluirPuzzle()
@@ -105,7 +104,6 @@ public class CollisionPuzzleController : MonoBehaviour
             return;
 
         puzzleConcluido = true;
-
         Debug.Log("PUZZLE DE COLISÃO CONCLUÍDO!");
 
         if (pistaoPorta != null)
