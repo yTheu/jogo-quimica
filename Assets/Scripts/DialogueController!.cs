@@ -70,7 +70,7 @@ public class RafaelDialogueController : MonoBehaviour
 
     private readonly string[] falasSequencia3 =
     {
-    "Bom, chegamos à câmara de reação! Lembra do que eu falei sobre a temperatura mudar a agitação das partículas? Pois é... agora você vai ver o que isso significa durante uma colisão.",
+    "Bom, finalmente chegamos à câmara de reação! Lembra do que eu falei sobre a temperatura mudar a agitação das partículas? Pois é... agora você vai ver o que isso significa durante uma colisão.",
     "Quanto maior a temperatura, maior a energia cinética média das partículas. Elas se movimentam mais rápido e podem colidir com mais energia.",
     "Só que nem toda colisão provoca uma reação. Para isso, as partículas precisam colidir em condições adequadas e com energia suficiente para superar a chamada energia de ativação.",
     "Se estiver frio demais, as colisões podem não ter energia suficiente. Mas também não adianta pensar 'então é só esquentar o máximo possível'.",
@@ -161,6 +161,25 @@ public class RafaelDialogueController : MonoBehaviour
     {
     }
 
+    public void PressionarT()
+    {
+        if (!dialogoAtivo || !podeReceberInput)
+            return;
+
+        EncerrarDialogo();
+    }
+
+    public void PressionarY()
+    {
+        if (!dialogoAtivo || !podeReceberInput)
+            return;
+
+        if (escrevendo)
+            CompletarFala();
+        else
+            AvancarDialogo();
+    }
+
     public void DispararSequencia3()
     {
         if (dialogoAtivo || sequencia3Concluida)
@@ -187,16 +206,13 @@ public class RafaelDialogueController : MonoBehaviour
 
         if (Keyboard.current.tKey.wasPressedThisFrame)
         {
-            EncerrarDialogo();
+            PressionarT();
             return;
         }
 
         if (Keyboard.current.yKey.wasPressedThisFrame)
         {
-            if (escrevendo)
-                CompletarFala();
-            else
-                AvancarDialogo();
+            PressionarY();
         }
     }
 
@@ -227,9 +243,7 @@ public class RafaelDialogueController : MonoBehaviour
         }
 
         if (ladoMovimentoAtual != 0 && ladoMovimentoAtual != ladoAtual)
-        {
             tempoMovimentoSequencia2 = 0f;
-        }
 
         ladoMovimentoAtual = ladoAtual;
 
@@ -256,21 +270,13 @@ public class RafaelDialogueController : MonoBehaviour
         sequencia2Ambos = testouAumentar && testouDiminuir;
 
         if (sequencia2Ambos)
-        {
             falasAtuais = falasSequencia2Ambos;
-        }
         else if (testouAumentar)
-        {
             falasAtuais = falasSequencia2Aquecimento;
-        }
         else if (testouDiminuir)
-        {
             falasAtuais = falasSequencia2Resfriamento;
-        }
         else
-        {
             return;
-        }
 
         falaAtual = 0;
         tempoMovimentoSequencia2 = 0f;
@@ -301,13 +307,15 @@ public class RafaelDialogueController : MonoBehaviour
             if (falaAtual == 0 ||
                 falaAtual == 6 ||
                 falaAtual == 7 ||
-                falaAtual == 8)
+                falaAtual == 10)
             {
                 imagemRafael.sprite = rafaelApresentando;
                 return;
             }
 
-            if (falaAtual == 3 || falaAtual == 4)
+            if (falaAtual == 3 ||
+                falaAtual == 4 ||
+                falaAtual == 8)
             {
                 imagemRafael.sprite = rafaelNervoso;
                 return;

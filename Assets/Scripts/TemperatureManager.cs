@@ -81,6 +81,34 @@ public class TemperatureManager : MonoBehaviour
         }
     }
 
+    public void BotaoT()
+    {
+        if (rafaelDialogue != null && rafaelDialogue.DialogoAtivo)
+        {
+            rafaelDialogue.PressionarT();
+            return;
+        }
+
+        if (rafaelDialogue != null && !rafaelDialogue.PodeAlterarTemperatura)
+            return;
+
+        AumentarTemperatura();
+    }
+
+    public void BotaoY()
+    {
+        if (rafaelDialogue != null && rafaelDialogue.DialogoAtivo)
+        {
+            rafaelDialogue.PressionarY();
+            return;
+        }
+
+        if (rafaelDialogue != null && !rafaelDialogue.PodeAlterarTemperatura)
+            return;
+
+        DiminuirTemperatura();
+    }
+
     public void AumentarTemperatura()
     {
         int temperaturaAnterior = temperaturaAtual;
