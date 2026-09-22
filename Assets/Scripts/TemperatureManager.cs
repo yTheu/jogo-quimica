@@ -62,7 +62,23 @@ public class TemperatureManager : MonoBehaviour
         if (morreuDeFrio)
             return;
 
+        if (rafaelDialogue != null && rafaelDialogue.DialogoAtivo)
+        {
+            tempoExposicaoFrio = 0f;
+            return;
+        }
+
         if (temperaturaAtual >= 2)
+        {
+            tempoExposicaoFrio = 0f;
+            return;
+        }
+
+        bool jogadorSeMovendo =
+            player.EstaSeMovendoHorizontalmente ||
+            player.IsDashing;
+
+        if (jogadorSeMovendo)
         {
             tempoExposicaoFrio = 0f;
             return;
