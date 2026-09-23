@@ -11,10 +11,12 @@ public class MobileJoystick : MonoBehaviour,
     [SerializeField] private PlayerController player;
 
     private float raio;
+    private Vector2 posicaoNeutra;
 
     private void Start()
     {
         raio = background.rect.width / 2f;
+        posicaoNeutra = handle.anchoredPosition;
     }
 
     public void OnPointerDown(PointerEventData eventData)
@@ -32,14 +34,17 @@ public class MobileJoystick : MonoBehaviour,
 
         float x = Mathf.Clamp(posicao.x / raio, -1f, 1f);
 
-        handle.anchoredPosition = new Vector2(x * raio, 0f);
+        handle.anchoredPosition = new Vector2(
+            posicaoNeutra.x + x * raio,
+            posicaoNeutra.y
+        );
 
         player.SetMobileHorizontal(x);
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        handle.anchoredPosition = Vector2.zero;
+        handle.anchoredPosition = posicaoNeutra;
         player.SetMobileHorizontal(0f);
     }
 }
