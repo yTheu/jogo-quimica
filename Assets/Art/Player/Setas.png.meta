@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 0d9b39316de465038a167df1014f3a7e
+guid: 10bc0cc780acaf649b0baec4de12e575
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7109441539214524461
-    second: WhatsApp_Image_2026-09-08_at_21.13.30__Editar_-removebg-preview_0
+      213: -5660562524102074044
+    second: Setas_0
+  - first:
+      213: -3806599025362523283
+    second: Setas_1
+  - first:
+      213: 7205402468669584602
+    second: Setas_2
+  - first:
+      213: -304133601230485133
+    second: Setas_3
+  - first:
+      213: -4316934853604153325
+    second: Setas_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 40
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,23 +125,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WhatsApp_Image_2026-09-08_at_21.13.30__Editar_-removebg-preview_0
+      name: Setas_0
       rect:
         serializedVersion: 2
-        x: 44
-        y: 8
-        width: 47
-        height: 62
+        x: 62
+        y: 84
+        width: 754
+        height: 743
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d20c948996fc9a260800000000000000
-      internalID: 7109441539214524461
+      spriteID: 441e1021064a171b0800000000000000
+      internalID: -5660562524102074044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Setas_2
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 83
+        width: 754
+        height: 743
+      alignment: 9
+      pivot: {x: 0.47101802, y: 0.48382396}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad4f5c09e5bbef360800000000000000
+      internalID: 7205402468669584602
       vertices: []
       indices: 
       edges: []
@@ -138,7 +172,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: c516ba90bad0c3b4fb46c8c06fea97e3
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +182,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WhatsApp_Image_2026-09-08_at_21.13.30__Editar_-removebg-preview_0: 7109441539214524461
+      Setas_0: -5660562524102074044
+      Setas_1: -3806599025362523283
+      Setas_2: 7205402468669584602
+      Setas_3: -304133601230485133
+      Setas_4: -4316934853604153325
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

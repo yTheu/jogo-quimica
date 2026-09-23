@@ -25,6 +25,7 @@ public class RafaelDialogueController : MonoBehaviour
 
     public static bool PularIntroducaoAoReiniciar { get; set; } = false;
     public static bool Sequencia2JaConcluida { get; set; } = false;
+    public static bool Sequencia3JaConcluida { get; set; } = false;
 
     private const int temperaturaInicial = 4;
 
@@ -70,17 +71,17 @@ public class RafaelDialogueController : MonoBehaviour
 
     private readonly string[] falasSequencia3 =
     {
-    "Bom, finalmente chegamos à câmara de reação! Lembra do que eu falei sobre a temperatura mudar a agitação das partículas? Pois é... agora você vai ver o que isso significa durante uma colisão.",
-    "Quanto maior a temperatura, maior a energia cinética média das partículas. Elas se movimentam mais rápido e podem colidir com mais energia.",
-    "Só que nem toda colisão provoca uma reação. Para isso, as partículas precisam colidir em condições adequadas e com energia suficiente para superar a chamada energia de ativação.",
-    "Se estiver frio demais, as colisões podem não ter energia suficiente. Mas também não adianta pensar 'então é só esquentar o máximo possível'.",
-    "Temperaturas muito altas também podem causar problemas, como favorecer reações indesejadas ou até decompor algumas substâncias.",
-    "Cada reação tem suas próprias condições. O que funciona para uma pode não funcionar para outra.",
-    "Logo depois da câmara você vai encontrar um botão. Quando apertá-lo, as moléculas serão liberadas lá dentro e o experimento começa.",
-    "Acima do botão tem uma barra que acompanha a temperatura da câmara. Nela vai haver uma faixa verde e é ali que queremos ficar.",
-    "E quando eu digo ficar, é ficar mesmo! Use T e Y para controlar a temperatura e tente manter a barra dentro daquela faixa por alguns instantes.",
-    "Se você conseguir sustentar a temperatura certa, as colisões terão a energia necessária para a reação acontecer.",
-    "Forme produtos suficientes e os pistões que estão bloqueando o caminho vão se abrir. Aí você pode continuar!"
+        "Bom, finalmente chegamos à câmara de reação! Lembra do que eu falei sobre a temperatura mudar a agitação das partículas? Pois é... agora você vai ver o que isso significa durante uma colisão.",
+        "Quanto maior a temperatura, maior a energia cinética média das partículas. Elas se movimentam mais rápido e podem colidir com mais energia.",
+        "Só que nem toda colisão provoca uma reação. Para isso, as partículas precisam colidir em condições adequadas e com energia suficiente para superar a chamada energia de ativação.",
+        "Se estiver frio demais, as colisões podem não ter energia suficiente. Mas também não adianta pensar 'então é só esquentar o máximo possível'.",
+        "Temperaturas muito altas também podem causar problemas, como favorecer reações indesejadas ou até decompor algumas substâncias.",
+        "Cada reação tem suas próprias condições. O que funciona para uma pode não funcionar para outra.",
+        "Logo depois da câmara você vai encontrar um botão. Quando apertá-lo, as moléculas serão liberadas lá dentro e o experimento começa.",
+        "Acima do botão tem uma barra que acompanha a temperatura da câmara. Nela vai haver uma faixa verde e é ali que queremos ficar.",
+        "E quando eu digo ficar, é ficar mesmo! Use T e Y para controlar a temperatura e tente manter a barra dentro daquela faixa por alguns instantes.",
+        "Se você conseguir sustentar a temperatura certa, as colisões terão a energia necessária para a reação acontecer.",
+        "Forme produtos suficientes e os pistões que estão bloqueando o caminho vão se abrir. Aí você pode continuar!"
     };
 
     private string[] falasAtuais;
@@ -98,7 +99,6 @@ public class RafaelDialogueController : MonoBehaviour
 
     private bool sequencia1Concluida = false;
     private bool sequencia2Concluida = false;
-    private bool sequencia3Concluida = false;
 
     private bool testouAumentar = false;
     private bool testouDiminuir = false;
@@ -122,7 +122,15 @@ public class RafaelDialogueController : MonoBehaviour
     {
         falasAtuais = falasSequencia1;
 
-        if (PularIntroducaoAoReiniciar)
+        bool reinicioPorMorte = PularIntroducaoAoReiniciar;
+
+        if (!reinicioPorMorte)
+        {
+            Sequencia2JaConcluida = false;
+            Sequencia3JaConcluida = false;
+        }
+
+        if (reinicioPorMorte)
         {
             PularIntroducaoAoReiniciar = false;
             dialogoAtivo = false;
@@ -182,10 +190,10 @@ public class RafaelDialogueController : MonoBehaviour
 
     public void DispararSequencia3()
     {
-        if (dialogoAtivo || sequencia3Concluida)
+        if (dialogoAtivo || Sequencia3JaConcluida)
             return;
 
-        sequencia3Concluida = true;
+        Sequencia3JaConcluida = true;
         sequenciaAtual = 3;
         falasAtuais = falasSequencia3;
         falaAtual = 0;
@@ -432,5 +440,12 @@ public class RafaelDialogueController : MonoBehaviour
 
         frameLiberacaoTemperatura = Time.frameCount;
         conteudoDialogo.SetActive(false);
+    }
+
+    public static void ResetarProgressoDialogos()
+    {
+        PularIntroducaoAoReiniciar = false;
+        Sequencia2JaConcluida = false;
+        Sequencia3JaConcluida = false;
     }
 }
