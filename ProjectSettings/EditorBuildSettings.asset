@@ -11,14 +11,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Temperatura.unity
     guid: 3d00f2c10dd64b9628f9aeb7e8ef47e1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Pressao.unity
     guid: 9c9a8eced35026378a097e3a9d59964f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SuperficieContato.unity
     guid: 3ede5fb0448c7687587dde23a08b58e4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Final.unity
-    guid: 0240fb79344ca9ba0a423c2580ce1a5c
+    guid: 413b3b07f1ee64994b48f26cd4305edc
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

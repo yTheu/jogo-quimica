@@ -3,13 +3,20 @@ using UnityEngine.SceneManagement;
 
 public class PortaSaida : MonoBehaviour
 {
-    [SerializeField] private string nomeProximaCena = "Pressao";
+    [SerializeField] private string nomeCenaMenu = "Menu";
+
+    private bool finalizando;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (!other.CompareTag("Player"))
+        if (!other.CompareTag("Player") || finalizando)
             return;
 
-        SceneManager.LoadScene(nomeProximaCena);
+        finalizando = true;
+
+        RafaelDialogueController.ResetarProgressoDialogos();
+        FimDemoController.MostrarFimDemo = true;
+
+        SceneManager.LoadScene(nomeCenaMenu);
     }
 }
